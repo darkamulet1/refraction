@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+ephe.zip
+tmp_output.json/
+src/jhora/data/ephe/
+ui_nicegui/
