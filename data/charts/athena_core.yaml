@@ -1,0 +1,26 @@
+person: Athena
+datetime_local: '2004-01-27T14:45:35+03:30'
+location:
+  name: Karaj
+  lat: 35.84
+  lon: 50.96
+  tz_name: Asia/Tehran
+ayanamsa: LAHIRI
+time_resolution:
+  utc_offset_at_birth_hours: 3.5
+  jd_utc: 2453031.9691550927
+  jd_local: 2453032.1149884257
+  jd_mode: LOCAL_WITH_DST
+core_chart:
+  ayanamsa_mode: LAHIRI
+  lagna_longitude_deg: 69.8900657622776
+  planets:
+    Sun: 282.94410259628586
+    Moon: 353.065470280189
+    Mars: 1.6908763359429013
+    Mercury: 260.85712157357165
+    Jupiter: 144.11601091736182
+    Venus: 321.5319357182449
+    Saturn: 73.79880617632732
+    Rahu: 22.38994013799319
+    Ketu: 202.3899401379932

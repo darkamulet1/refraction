@@ -1,0 +1,26 @@
+person: Mehran
+datetime_local: '1997-06-07T20:28:36+04:30'
+location:
+  name: Tehran
+  lat: 35.6892
+  lon: 51.389
+  tz_name: Asia/Tehran
+ayanamsa: LAHIRI
+time_resolution:
+  utc_offset_at_birth_hours: 4.5
+  jd_utc: 2450607.1656944444
+  jd_local: 2450607.3531944444
+  jd_mode: LOCAL_WITH_DST
+core_chart:
+  ayanamsa_mode: LAHIRI
+  lagna_longitude_deg: 236.35187377299138
+  planets:
+    Sun: 53.116742406178126
+    Moon: 81.63502036620407
+    Mars: 151.4555844736101
+    Mercury: 33.93845791661968
+    Jupiter: 298.11139803792565
+    Venus: 70.45520695337642
+    Saturn: 354.09388594541105
+    Rahu: 150.88515137300746
+    Ketu: 330.8851513730075

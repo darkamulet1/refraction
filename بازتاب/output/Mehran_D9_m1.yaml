@@ -1,0 +1,181 @@
+metadata:
+  name: Mehran
+  location: Tehran, IR
+  coordinates:
+    latitude: 35.6892
+    longitude: 51.389
+  timezone_offset_hours: 4.5
+  local_datetime: '1997-06-07T20:28:36'
+  julian_day: 2450607.3531944444
+  ayanamsha_mode: LAHIRI
+  ayanamsha_value_deg: 23.8212325
+  ayanamsha_value_dms: 23° 49’ 16"
+  divisional_chart_factor: 9
+  divisional_chart_label: D9 (Navamsa)
+  calculation_type: drik
+  node_mode: 'true'
+  chart_method: 1
+  precision_digits: 6
+  swisseph_version: 20230604
+  generator: PyJHora core API
+positions:
+- body: Ascendant
+  raw_id: L
+  sign_index: 10
+  sign_name: ♒︎Aquarius
+  sign_short: Aq
+  longitude_in_sign_deg: 27.166864
+  longitude_in_sign_dms: 27° 10’ 1"
+  absolute_longitude_deg: 327.166864
+  absolute_longitude_dms: 327° 10’ 1"
+  retrograde: false
+  nakshatra_index: 25
+  nakshatra_name: Poorattathi
+  pada: 3
+  within_star_deg: 7.166864
+  within_star_dms: 7° 10’ 1"
+  progress_percent: 53.7515
+- body: Sun☉
+  raw_id: 0
+  sign_index: 3
+  sign_name: ♋︎Cancer
+  sign_short: Cn
+  longitude_in_sign_deg: 28.050682
+  longitude_in_sign_dms: 28° 3’ 2"
+  absolute_longitude_deg: 118.050682
+  absolute_longitude_dms: 118° 3’ 2"
+  retrograde: false
+  nakshatra_index: 9
+  nakshatra_name: Aayilyam
+  pada: 4
+  within_star_deg: 11.384015
+  within_star_dms: 11° 23’ 2"
+  progress_percent: 85.3801
+- body: Moon☾
+  raw_id: 1
+  sign_index: 0
+  sign_name: ♈Aries
+  sign_short: Ar
+  longitude_in_sign_deg: 14.715183
+  longitude_in_sign_dms: 14° 42’ 55"
+  absolute_longitude_deg: 14.715183
+  absolute_longitude_dms: 14° 42’ 55"
+  retrograde: false
+  nakshatra_index: 2
+  nakshatra_name: Bharani
+  pada: 1
+  within_star_deg: 1.38185
+  within_star_dms: 1° 22’ 55"
+  progress_percent: 10.3639
+- body: Mars♂
+  raw_id: 2
+  sign_index: 9
+  sign_name: ♑︎Capricorn
+  sign_short: Cp
+  longitude_in_sign_deg: 13.10026
+  longitude_in_sign_dms: 13° 6’ 1"
+  absolute_longitude_deg: 283.10026
+  absolute_longitude_dms: 283° 6’ 1"
+  retrograde: false
+  nakshatra_index: 22
+  nakshatra_name: Thiruvonam
+  pada: 1
+  within_star_deg: 3.10026
+  within_star_dms: 3° 6’ 1"
+  progress_percent: 23.252
+- body: Mercury☿
+  raw_id: 3
+  sign_index: 10
+  sign_name: ♒︎Aquarius
+  sign_short: Aq
+  longitude_in_sign_deg: 5.446121
+  longitude_in_sign_dms: 5° 26’ 46"
+  absolute_longitude_deg: 305.446121
+  absolute_longitude_dms: 305° 26’ 46"
+  retrograde: false
+  nakshatra_index: 23
+  nakshatra_name: Avittam
+  pada: 4
+  within_star_deg: 12.112788
+  within_star_dms: 12° 6’ 46"
+  progress_percent: 90.8459
+- body: Jupiter♃
+  raw_id: 4
+  sign_index: 5
+  sign_name: ♍︎Virgo
+  sign_short: Vi
+  longitude_in_sign_deg: 13.002582
+  longitude_in_sign_dms: 13° 0’ 9"
+  absolute_longitude_deg: 163.002582
+  absolute_longitude_dms: 163° 0’ 9"
+  retrograde: false
+  nakshatra_index: 13
+  nakshatra_name: Hastham
+  pada: 1
+  within_star_deg: 3.002582
+  within_star_dms: 3° 0’ 9"
+  progress_percent: 22.5194
+- body: Venus♀
+  raw_id: 5
+  sign_index: 9
+  sign_name: ♑︎Capricorn
+  sign_short: Cp
+  longitude_in_sign_deg: 4.096863
+  longitude_in_sign_dms: 4° 5’ 49"
+  absolute_longitude_deg: 274.096863
+  absolute_longitude_dms: 274° 5’ 49"
+  retrograde: false
+  nakshatra_index: 21
+  nakshatra_name: Uthiraadam
+  pada: 3
+  within_star_deg: 7.430196
+  within_star_dms: 7° 25’ 49"
+  progress_percent: 55.7265
+- body: Saturn♄
+  raw_id: 6
+  sign_index: 10
+  sign_name: ♒︎Aquarius
+  sign_short: Aq
+  longitude_in_sign_deg: 6.844974
+  longitude_in_sign_dms: 6° 50’ 42"
+  absolute_longitude_deg: 306.844974
+  absolute_longitude_dms: 306° 50’ 42"
+  retrograde: false
+  nakshatra_index: 24
+  nakshatra_name: Sadhayam
+  pada: 1
+  within_star_deg: 0.178307
+  within_star_dms: 0° 10’ 42"
+  progress_percent: 1.3373
+- body: Raagu☊
+  raw_id: 7
+  sign_index: 9
+  sign_name: ♑︎Capricorn
+  sign_short: Cp
+  longitude_in_sign_deg: 7.966362
+  longitude_in_sign_dms: 7° 57’ 59"
+  absolute_longitude_deg: 277.966362
+  absolute_longitude_dms: 277° 57’ 59"
+  retrograde: false
+  nakshatra_index: 21
+  nakshatra_name: Uthiraadam
+  pada: 4
+  within_star_deg: 11.299696
+  within_star_dms: 11° 17’ 59"
+  progress_percent: 84.7477
+- body: Kethu☋
+  raw_id: 8
+  sign_index: 3
+  sign_name: ♋︎Cancer
+  sign_short: Cn
+  longitude_in_sign_deg: 7.966362
+  longitude_in_sign_dms: 7° 57’ 59"
+  absolute_longitude_deg: 97.966362
+  absolute_longitude_dms: 97° 57’ 59"
+  retrograde: false
+  nakshatra_index: 8
+  nakshatra_name: Poosam
+  pada: 2
+  within_star_deg: 4.633029
+  within_star_dms: 4° 37’ 59"
+  progress_percent: 34.7477

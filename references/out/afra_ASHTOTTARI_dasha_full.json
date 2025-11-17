@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "schema_version": "dasha.v1",
+    "engine": "PYJHORA_ASHTOTTARI",
+    "system": "ASHTOTTARI",
+    "source_birth_file": "afra_full_pyjhora.json"
+  },
+  "birth_ref": {
+    "person": "Afra",
+    "datetime_local": "2004-05-13T13:01:01+04:30",
+    "timezone": "Asia/Tehran"
+  },
+  "timeline": [
+    {
+      "level": "MD",
+      "lord": "JUPITER",
+      "sublord": null,
+      "start_jd": 2448093.8632986112,
+      "end_jd": 2455033.734212963,
+      "start_iso": "1990-07-21T08:43:09",
+      "end_iso": "2009-07-21T05:37:16"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "JUPITER",
+      "start_jd": 2448093.8632986112,
+      "end_jd": 2449314.7665162035,
+      "start_iso": "1990-07-21T08:43:09",
+      "end_iso": "1993-11-23T06:23:47"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "JUPITER",
+      "start_jd": 2449314.7665162035,
+      "end_jd": 2450085.8632754628,
+      "start_iso": "1993-11-23T06:23:47",
+      "end_iso": "1996-01-03T08:43:07"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "JUPITER",
+      "start_jd": 2450085.8632754628,
+      "end_jd": 2451435.282627315,
+      "start_iso": "1996-01-03T08:43:07",
+      "end_iso": "1999-09-13T18:46:59"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "JUPITER",
+      "start_jd": 2451435.282627315,
+      "end_jd": 2451820.8310069446,
+      "start_iso": "1999-09-13T18:46:59",
+      "end_iso": "2000-10-03T07:56:39"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "JUPITER",
+      "start_jd": 2451820.8310069446,
+      "end_jd": 2452784.701967593,
+      "start_iso": "2000-10-03T07:56:39",
+      "end_iso": "2003-05-25T04:50:50"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "JUPITER",
+      "start_jd": 2452784.701967593,
+      "end_jd": 2453298.7664814815,
+      "start_iso": "2003-05-25T04:50:50",
+      "end_iso": "2004-10-20T06:23:44"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "JUPITER",
+      "start_jd": 2453298.7664814815,
+      "end_jd": 2454391.153564815,
+      "start_iso": "2004-10-20T06:23:44",
+      "end_iso": "2007-10-17T15:41:08"
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "JUPITER",
+      "start_jd": 2454391.153564815,
+      "end_jd": 2455033.734212963,
+      "start_iso": "2007-10-17T15:41:08",
+      "end_iso": "2009-07-21T05:37:16"
+    },
+    {
+      "level": "MD",
+      "lord": "RAHU",
+      "sublord": null,
+      "start_jd": 2455033.734212963,
+      "end_jd": 2459416.810578704,
+      "start_iso": "2009-07-21T05:37:16",
+      "end_iso": "2021-07-21T07:27:14"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "RAHU",
+      "start_jd": 2455033.734212963,
+      "end_jd": 2455520.7426967593,
+      "start_iso": "2009-07-21T05:37:16",
+      "end_iso": "2010-11-20T05:49:29"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "RAHU",
+      "start_jd": 2455520.7426967593,
+      "end_jd": 2456373.0075462963,
+      "start_iso": "2010-11-20T05:49:29",
+      "end_iso": "2013-03-21T12:10:52"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "RAHU",
+      "start_jd": 2456373.0075462963,
+      "end_jd": 2456616.5117824073,
+      "start_iso": "2013-03-21T12:10:52",
+      "end_iso": "2013-11-20T00:16:58"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "RAHU",
+      "start_jd": 2456616.5117824073,
+      "end_jd": 2457225.2723958334,
+      "start_iso": "2013-11-20T00:16:58",
+      "end_iso": "2015-07-21T18:32:15"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "RAHU",
+      "start_jd": 2457225.2723958334,
+      "end_jd": 2457549.944722222,
+      "start_iso": "2015-07-21T18:32:15",
+      "end_iso": "2016-06-10T10:40:24"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "RAHU",
+      "start_jd": 2457549.944722222,
+      "end_jd": 2458239.8734027776,
+      "start_iso": "2016-06-10T10:40:24",
+      "end_iso": "2018-05-01T08:57:42"
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "RAHU",
+      "start_jd": 2458239.8734027776,
+      "end_jd": 2458645.71380787,
+      "start_iso": "2018-05-01T08:57:42",
+      "end_iso": "2019-06-11T05:07:53"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "RAHU",
+      "start_jd": 2458645.71380787,
+      "end_jd": 2459416.810578704,
+      "start_iso": "2019-06-11T05:07:53",
+      "end_iso": "2021-07-21T07:27:14"
+    },
+    {
+      "level": "MD",
+      "lord": "VENUS",
+      "sublord": null,
+      "start_jd": 2459416.810578704,
+      "end_jd": 2467087.194224537,
+      "start_iso": "2021-07-21T07:27:14",
+      "end_iso": "2042-07-21T16:39:41"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "VENUS",
+      "start_jd": 2459416.810578704,
+      "end_jd": 2460908.2740625,
+      "start_iso": "2021-07-21T07:27:14",
+      "end_iso": "2025-08-20T18:34:39"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "VENUS",
+      "start_jd": 2460908.2740625,
+      "end_jd": 2461334.4064930556,
+      "start_iso": "2025-08-20T18:34:39",
+      "end_iso": "2026-10-20T21:45:21"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "VENUS",
+      "start_jd": 2461334.4064930556,
+      "end_jd": 2462399.7375462963,
+      "start_iso": "2026-10-20T21:45:21",
+      "end_iso": "2029-09-20T05:42:04"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "VENUS",
+      "start_jd": 2462399.7375462963,
+      "end_jd": 2462967.9141203705,
+      "start_iso": "2029-09-20T05:42:04",
+      "end_iso": "2031-04-11T09:56:20"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "VENUS",
+      "start_jd": 2462967.9141203705,
+      "end_jd": 2464175.2893171296,
+      "start_iso": "2031-04-11T09:56:20",
+      "end_iso": "2034-07-31T18:56:37"
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "VENUS",
+      "start_jd": 2464175.2893171296,
+      "end_jd": 2464885.5100231483,
+      "start_iso": "2034-07-31T18:56:37",
+      "end_iso": "2036-07-11T00:14:26"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "VENUS",
+      "start_jd": 2464885.5100231483,
+      "end_jd": 2466234.929375,
+      "start_iso": "2036-07-11T00:14:26",
+      "end_iso": "2040-03-21T10:18:18"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "VENUS",
+      "start_jd": 2466234.929375,
+      "end_jd": 2467087.194224537,
+      "start_iso": "2040-03-21T10:18:18",
+      "end_iso": "2042-07-21T16:39:41"
+    },
+    {
+      "level": "MD",
+      "lord": "SUN",
+      "sublord": null,
+      "start_jd": 2467087.194224537,
+      "end_jd": 2469278.7324074074,
+      "start_iso": "2042-07-21T16:39:41",
+      "end_iso": "2048-07-21T05:34:40"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "SUN",
+      "start_jd": 2467087.194224537,
+      "end_jd": 2467208.9463425926,
+      "start_iso": "2042-07-21T16:39:41",
+      "end_iso": "2042-11-20T10:42:44"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "SUN",
+      "start_jd": 2467208.9463425926,
+      "end_jd": 2467513.3266435186,
+      "start_iso": "2042-11-20T10:42:44",
+      "end_iso": "2043-09-20T19:50:22"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "SUN",
+      "start_jd": 2467513.3266435186,
+      "end_jd": 2467675.6628125,
+      "start_iso": "2043-09-20T19:50:22",
+      "end_iso": "2044-03-01T03:54:27"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "SUN",
+      "start_jd": 2467675.6628125,
+      "end_jd": 2468020.6271527777,
+      "start_iso": "2044-03-01T03:54:27",
+      "end_iso": "2045-02-09T03:03:06"
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "SUN",
+      "start_jd": 2468020.6271527777,
+      "end_jd": 2468223.5473495373,
+      "start_iso": "2045-02-09T03:03:06",
+      "end_iso": "2045-08-31T01:08:11"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "SUN",
+      "start_jd": 2468223.5473495373,
+      "end_jd": 2468609.0957407407,
+      "start_iso": "2045-08-31T01:08:11",
+      "end_iso": "2046-09-20T14:17:52"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "SUN",
+      "start_jd": 2468609.0957407407,
+      "end_jd": 2468852.599976852,
+      "start_iso": "2046-09-20T14:17:52",
+      "end_iso": "2047-05-22T02:23:58"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "SUN",
+      "start_jd": 2468852.599976852,
+      "end_jd": 2469278.7324074074,
+      "start_iso": "2047-05-22T02:23:58",
+      "end_iso": "2048-07-21T05:34:40"
+    },
+    {
+      "level": "MD",
+      "lord": "MOON",
+      "sublord": null,
+      "start_jd": 2469278.7324074074,
+      "end_jd": 2474757.5778703704,
+      "start_iso": "2048-07-21T05:34:40",
+      "end_iso": "2063-07-22T01:52:08"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "MOON",
+      "start_jd": 2469278.7324074074,
+      "end_jd": 2470039.683159722,
+      "start_iso": "2048-07-21T05:34:40",
+      "end_iso": "2050-08-21T04:23:45"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "MOON",
+      "start_jd": 2470039.683159722,
+      "end_jd": 2470445.5235648146,
+      "start_iso": "2050-08-21T04:23:45",
+      "end_iso": "2051-10-01T00:33:56"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "MOON",
+      "start_jd": 2470445.5235648146,
+      "end_jd": 2471307.9344328702,
+      "start_iso": "2051-10-01T00:33:56",
+      "end_iso": "2054-02-09T10:25:35"
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "MOON",
+      "start_jd": 2471307.9344328702,
+      "end_jd": 2471815.2349305553,
+      "start_iso": "2054-02-09T10:25:35",
+      "end_iso": "2055-07-01T17:38:18"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "MOON",
+      "start_jd": 2471815.2349305553,
+      "end_jd": 2472779.1058912035,
+      "start_iso": "2055-07-01T17:38:18",
+      "end_iso": "2058-02-19T14:32:29"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "MOON",
+      "start_jd": 2472779.1058912035,
+      "end_jd": 2473387.8665046296,
+      "start_iso": "2058-02-19T14:32:29",
+      "end_iso": "2059-10-21T08:47:46"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "MOON",
+      "start_jd": 2473387.8665046296,
+      "end_jd": 2474453.1975578703,
+      "start_iso": "2059-10-21T08:47:46",
+      "end_iso": "2062-09-20T16:44:29"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "MOON",
+      "start_jd": 2474453.1975578703,
+      "end_jd": 2474757.5778703704,
+      "start_iso": "2062-09-20T16:44:29",
+      "end_iso": "2063-07-22T01:52:08"
+    },
+    {
+      "level": "MD",
+      "lord": "MARS",
+      "sublord": null,
+      "start_jd": 2474757.5778703704,
+      "end_jd": 2477679.628773148,
+      "start_iso": "2063-07-22T01:52:08",
+      "end_iso": "2071-07-22T03:05:26"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "MARS",
+      "start_jd": 2474757.5778703704,
+      "end_jd": 2474974.026087963,
+      "start_iso": "2063-07-22T01:52:08",
+      "end_iso": "2064-02-23T12:37:34"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "MARS",
+      "start_jd": 2474974.026087963,
+      "end_jd": 2475433.9785416666,
+      "start_iso": "2064-02-23T12:37:34",
+      "end_iso": "2065-05-28T11:29:06"
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "MARS",
+      "start_jd": 2475433.9785416666,
+      "end_jd": 2475704.5388078704,
+      "start_iso": "2065-05-28T11:29:06",
+      "end_iso": "2066-02-23T00:55:53"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "MARS",
+      "start_jd": 2475704.5388078704,
+      "end_jd": 2476218.603321759,
+      "start_iso": "2066-02-23T00:55:53",
+      "end_iso": "2067-07-22T02:28:47"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "MARS",
+      "start_jd": 2476218.603321759,
+      "end_jd": 2476543.2756481483,
+      "start_iso": "2067-07-22T02:28:47",
+      "end_iso": "2068-06-10T18:36:56"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "MARS",
+      "start_jd": 2476543.2756481483,
+      "end_jd": 2477111.452210648,
+      "start_iso": "2068-06-10T18:36:56",
+      "end_iso": "2069-12-30T22:51:11"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "MARS",
+      "start_jd": 2477111.452210648,
+      "end_jd": 2477273.7883796296,
+      "start_iso": "2069-12-30T22:51:11",
+      "end_iso": "2070-06-11T06:55:16"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "MARS",
+      "start_jd": 2477273.7883796296,
+      "end_jd": 2477679.628773148,
+      "start_iso": "2070-06-11T06:55:16",
+      "end_iso": "2071-07-22T03:05:26"
+    },
+    {
+      "level": "MD",
+      "lord": "MERCURY",
+      "sublord": null,
+      "start_jd": 2477679.628773148,
+      "end_jd": 2483888.9869675925,
+      "start_iso": "2071-07-22T03:05:26",
+      "end_iso": "2088-07-21T11:41:14"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "MERCURY",
+      "start_jd": 2477679.628773148,
+      "end_jd": 2478657.0277546295,
+      "start_iso": "2071-07-22T03:05:26",
+      "end_iso": "2074-03-25T12:39:58"
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "MERCURY",
+      "start_jd": 2478657.0277546295,
+      "end_jd": 2479231.9683217593,
+      "start_iso": "2074-03-25T12:39:58",
+      "end_iso": "2075-10-21T11:14:23"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "MERCURY",
+      "start_jd": 2479231.9683217593,
+      "end_jd": 2480324.3554166667,
+      "start_iso": "2075-10-21T11:14:23",
+      "end_iso": "2078-10-17T20:31:48"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "MERCURY",
+      "start_jd": 2480324.3554166667,
+      "end_jd": 2481014.284097222,
+      "start_iso": "2078-10-17T20:31:48",
+      "end_iso": "2080-09-06T18:49:06"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "MERCURY",
+      "start_jd": 2481014.284097222,
+      "end_jd": 2482221.6593055557,
+      "start_iso": "2080-09-06T18:49:06",
+      "end_iso": "2083-12-28T03:49:24"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "MERCURY",
+      "start_jd": 2482221.6593055557,
+      "end_jd": 2482566.623645833,
+      "start_iso": "2083-12-28T03:49:24",
+      "end_iso": "2084-12-07T02:58:03"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "MERCURY",
+      "start_jd": 2482566.623645833,
+      "end_jd": 2483429.034513889,
+      "start_iso": "2084-12-07T02:58:03",
+      "end_iso": "2087-04-18T12:49:42"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "MERCURY",
+      "start_jd": 2483429.034513889,
+      "end_jd": 2483888.9869675925,
+      "start_iso": "2087-04-18T12:49:42",
+      "end_iso": "2088-07-21T11:41:14"
+    },
+    {
+      "level": "MD",
+      "lord": "SATURN",
+      "sublord": null,
+      "start_jd": 2483888.9869675925,
+      "end_jd": null,
+      "start_iso": "2088-07-21T11:41:14",
+      "end_iso": null
+    },
+    {
+      "level": "AD",
+      "lord": "SATURN",
+      "sublord": "SATURN",
+      "start_jd": 2483888.9869675925,
+      "end_jd": 2484227.187303241,
+      "start_iso": "2088-07-21T11:41:14",
+      "end_iso": "2089-06-24T16:29:43"
+    },
+    {
+      "level": "AD",
+      "lord": "JUPITER",
+      "sublord": "SATURN",
+      "start_jd": 2484227.187303241,
+      "end_jd": 2484869.767939815,
+      "start_iso": "2089-06-24T16:29:43",
+      "end_iso": "2091-03-29T06:25:50"
+    },
+    {
+      "level": "AD",
+      "lord": "RAHU",
+      "sublord": "SATURN",
+      "start_jd": 2484869.767939815,
+      "end_jd": 2485275.6083449074,
+      "start_iso": "2091-03-29T06:25:50",
+      "end_iso": "2092-05-08T02:36:01"
+    },
+    {
+      "level": "AD",
+      "lord": "VENUS",
+      "sublord": "SATURN",
+      "start_jd": 2485275.6083449074,
+      "end_jd": 2485985.829050926,
+      "start_iso": "2092-05-08T02:36:01",
+      "end_iso": "2094-04-18T07:53:50"
+    },
+    {
+      "level": "AD",
+      "lord": "SUN",
+      "sublord": "SATURN",
+      "start_jd": 2485985.829050926,
+      "end_jd": 2486188.749259259,
+      "start_iso": "2094-04-18T07:53:50",
+      "end_iso": "2094-11-07T05:58:56"
+    },
+    {
+      "level": "AD",
+      "lord": "MOON",
+      "sublord": "SATURN",
+      "start_jd": 2486188.749259259,
+      "end_jd": 2486696.0497685187,
+      "start_iso": "2094-11-07T05:58:56",
+      "end_iso": "2096-03-28T13:11:40"
+    },
+    {
+      "level": "AD",
+      "lord": "MARS",
+      "sublord": "SATURN",
+      "start_jd": 2486696.0497685187,
+      "end_jd": 2486966.6100347224,
+      "start_iso": "2096-03-28T13:11:40",
+      "end_iso": "2096-12-24T02:38:27"
+    },
+    {
+      "level": "AD",
+      "lord": "MERCURY",
+      "sublord": "SATURN",
+      "start_jd": 2486966.6100347224,
+      "end_jd": null,
+      "start_iso": "2096-12-24T02:38:27",
+      "end_iso": null
+    }
+  ]
+}

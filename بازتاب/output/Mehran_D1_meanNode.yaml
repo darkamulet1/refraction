@@ -1,0 +1,181 @@
+metadata:
+  name: Mehran
+  location: Tehran, IR
+  coordinates:
+    latitude: 35.6892
+    longitude: 51.389
+  timezone_offset_hours: 4.5
+  local_datetime: '1997-06-07T20:28:36'
+  julian_day: 2450607.3531944444
+  ayanamsha_mode: LAHIRI
+  ayanamsha_value_deg: 23.8212325
+  ayanamsha_value_dms: 23° 49’ 16"
+  divisional_chart_factor: 1
+  divisional_chart_label: D1 (Rasi)
+  calculation_type: drik
+  node_mode: mean
+  chart_method: 1
+  precision_digits: 6
+  swisseph_version: 20230604
+  generator: PyJHora core API
+positions:
+- body: Ascendant
+  raw_id: L
+  sign_index: 7
+  sign_name: ♏︎Scorpio
+  sign_short: Sc
+  longitude_in_sign_deg: 26.351874
+  longitude_in_sign_dms: 26° 21’ 7"
+  absolute_longitude_deg: 236.351874
+  absolute_longitude_dms: 236° 21’ 7"
+  retrograde: false
+  nakshatra_index: 18
+  nakshatra_name: Kaettai
+  pada: 3
+  within_star_deg: 9.685207
+  within_star_dms: 9° 41’ 7"
+  progress_percent: 72.6391
+- body: Sun☉
+  raw_id: 0
+  sign_index: 1
+  sign_name: ♉︎Taurus
+  sign_short: Ta
+  longitude_in_sign_deg: 23.116742
+  longitude_in_sign_dms: 23° 7’ 0"
+  absolute_longitude_deg: 53.116742
+  absolute_longitude_dms: 53° 7’ 0"
+  retrograde: false
+  nakshatra_index: 4
+  nakshatra_name: Rohini
+  pada: 4
+  within_star_deg: 13.116742
+  within_star_dms: 13° 7’ 0"
+  progress_percent: 98.3756
+- body: Moon☾
+  raw_id: 1
+  sign_index: 2
+  sign_name: ♊︎Gemini
+  sign_short: Ge
+  longitude_in_sign_deg: 21.63502
+  longitude_in_sign_dms: 21° 38’ 6"
+  absolute_longitude_deg: 81.63502
+  absolute_longitude_dms: 81° 38’ 6"
+  retrograde: false
+  nakshatra_index: 7
+  nakshatra_name: Punarpoosam
+  pada: 1
+  within_star_deg: 1.63502
+  within_star_dms: 1° 38’ 6"
+  progress_percent: 12.2627
+- body: Mars♂
+  raw_id: 2
+  sign_index: 5
+  sign_name: ♍︎Virgo
+  sign_short: Vi
+  longitude_in_sign_deg: 1.455584
+  longitude_in_sign_dms: 1° 27’ 20"
+  absolute_longitude_deg: 151.455584
+  absolute_longitude_dms: 151° 27’ 20"
+  retrograde: false
+  nakshatra_index: 12
+  nakshatra_name: Uthiram
+  pada: 2
+  within_star_deg: 4.788918
+  within_star_dms: 4° 47’ 20"
+  progress_percent: 35.9169
+- body: Mercury☿
+  raw_id: 3
+  sign_index: 1
+  sign_name: ♉︎Taurus
+  sign_short: Ta
+  longitude_in_sign_deg: 3.938458
+  longitude_in_sign_dms: 3° 56’ 18"
+  absolute_longitude_deg: 33.938458
+  absolute_longitude_dms: 33° 56’ 18"
+  retrograde: false
+  nakshatra_index: 3
+  nakshatra_name: Karthigai
+  pada: 3
+  within_star_deg: 7.271791
+  within_star_dms: 7° 16’ 18"
+  progress_percent: 54.5384
+- body: Jupiter♃
+  raw_id: 4
+  sign_index: 9
+  sign_name: ♑︎Capricorn
+  sign_short: Cp
+  longitude_in_sign_deg: 28.111398
+  longitude_in_sign_dms: 28° 6’ 41"
+  absolute_longitude_deg: 298.111398
+  absolute_longitude_dms: 298° 6’ 41"
+  retrograde: false
+  nakshatra_index: 23
+  nakshatra_name: Avittam
+  pada: 2
+  within_star_deg: 4.778065
+  within_star_dms: 4° 46’ 41"
+  progress_percent: 35.8355
+- body: Venus♀
+  raw_id: 5
+  sign_index: 2
+  sign_name: ♊︎Gemini
+  sign_short: Ge
+  longitude_in_sign_deg: 10.455207
+  longitude_in_sign_dms: 10° 27’ 19"
+  absolute_longitude_deg: 70.455207
+  absolute_longitude_dms: 70° 27’ 19"
+  retrograde: false
+  nakshatra_index: 6
+  nakshatra_name: Thiruvaathirai
+  pada: 2
+  within_star_deg: 3.78854
+  within_star_dms: 3° 47’ 19"
+  progress_percent: 28.4141
+- body: Saturn♄
+  raw_id: 6
+  sign_index: 11
+  sign_name: ♓︎Pisces
+  sign_short: Pi
+  longitude_in_sign_deg: 24.093886
+  longitude_in_sign_dms: 24° 5’ 38"
+  absolute_longitude_deg: 354.093886
+  absolute_longitude_dms: 354° 5’ 38"
+  retrograde: false
+  nakshatra_index: 27
+  nakshatra_name: Revathi
+  pada: 3
+  within_star_deg: 7.427219
+  within_star_dms: 7° 25’ 38"
+  progress_percent: 55.7041
+- body: Raagu☊
+  raw_id: 7
+  sign_index: 5
+  sign_name: ♍︎Virgo
+  sign_short: Vi
+  longitude_in_sign_deg: 0.885151
+  longitude_in_sign_dms: 0° 53’ 7"
+  absolute_longitude_deg: 150.885151
+  absolute_longitude_dms: 150° 53’ 7"
+  retrograde: false
+  nakshatra_index: 12
+  nakshatra_name: Uthiram
+  pada: 2
+  within_star_deg: 4.218485
+  within_star_dms: 4° 13’ 7"
+  progress_percent: 31.6386
+- body: Kethu☋
+  raw_id: 8
+  sign_index: 11
+  sign_name: ♓︎Pisces
+  sign_short: Pi
+  longitude_in_sign_deg: 0.885151
+  longitude_in_sign_dms: 0° 53’ 7"
+  absolute_longitude_deg: 330.885151
+  absolute_longitude_dms: 330° 53’ 7"
+  retrograde: false
+  nakshatra_index: 25
+  nakshatra_name: Poorattathi
+  pada: 4
+  within_star_deg: 10.885151
+  within_star_dms: 10° 53’ 7"
+  progress_percent: 81.6386
