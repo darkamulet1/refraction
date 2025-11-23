@@ -1,0 +1,28 @@
+{
+  "canonical_suites": [
+    {
+      "file": "jhora/tests/pvr_tests.py",
+      "scope": "panchanga|dashas|charts",
+      "notes": "Extensive regression suite that verifies panchanga, charts, dashas, and transit calculations from the PVR Rao book."
+    },
+    {
+      "file": "jhora/tests/test_yogas.py",
+      "scope": "charts|yogas",
+      "notes": "Validates yoga detection helpers (Sunapha, Kemadruma, Raja yogas, etc.)."
+    },
+    {
+      "file": "jhora/tests/test_ui.py",
+      "scope": "ui",
+      "notes": "Smoke tests for the PyQt chart/panchanga UIs."
+    }
+  ],
+  "representative_cases": [
+    {
+      "file": "jhora/tests/pvr_tests.py",
+      "test_name": "test_example",
+      "description": "",
+      "inputs": {},
+      "expected": {}
+    }
+  ]
+}

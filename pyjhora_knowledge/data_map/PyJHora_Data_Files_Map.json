@@ -1,0 +1,2186 @@
+{
+  "files": [
+    {
+      "path": "src\\jhora\\data\\all_nak_pad_boy_girl.csv",
+      "purpose": "Tabular dataset used by Panchanga/match components",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt",
+        "src\\jhora\\horoscope\\match\\compatibility.py"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\all_nak_pad_boy_girl_south.csv",
+      "purpose": "Tabular dataset used by Panchanga/match components",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt",
+        "src\\jhora\\horoscope\\match\\compatibility.py"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\astlistn.md",
+      "purpose": "Swiss Ephemeris data file (astlistn.md)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_196",
+      "purpose": "Swiss Ephemeris data file (sep4_196)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_197",
+      "purpose": "Swiss Ephemeris data file (sep4_197)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_198",
+      "purpose": "Swiss Ephemeris data file (sep4_198)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_199",
+      "purpose": "Swiss Ephemeris data file (sep4_199)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_200",
+      "purpose": "Swiss Ephemeris data file (sep4_200)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_201",
+      "purpose": "Swiss Ephemeris data file (sep4_201)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_202",
+      "purpose": "Swiss Ephemeris data file (sep4_202)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_203",
+      "purpose": "Swiss Ephemeris data file (sep4_203)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_204",
+      "purpose": "Swiss Ephemeris data file (sep4_204)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_205",
+      "purpose": "Swiss Ephemeris data file (sep4_205)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_206",
+      "purpose": "Swiss Ephemeris data file (sep4_206)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_207",
+      "purpose": "Swiss Ephemeris data file (sep4_207)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_208",
+      "purpose": "Swiss Ephemeris data file (sep4_208)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_209",
+      "purpose": "Swiss Ephemeris data file (sep4_209)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_210",
+      "purpose": "Swiss Ephemeris data file (sep4_210)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_211",
+      "purpose": "Swiss Ephemeris data file (sep4_211)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_212",
+      "purpose": "Swiss Ephemeris data file (sep4_212)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_213",
+      "purpose": "Swiss Ephemeris data file (sep4_213)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_214",
+      "purpose": "Swiss Ephemeris data file (sep4_214)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_215",
+      "purpose": "Swiss Ephemeris data file (sep4_215)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_216",
+      "purpose": "Swiss Ephemeris data file (sep4_216)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_217",
+      "purpose": "Swiss Ephemeris data file (sep4_217)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_218",
+      "purpose": "Swiss Ephemeris data file (sep4_218)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_219",
+      "purpose": "Swiss Ephemeris data file (sep4_219)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_220",
+      "purpose": "Swiss Ephemeris data file (sep4_220)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_221",
+      "purpose": "Swiss Ephemeris data file (sep4_221)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_222",
+      "purpose": "Swiss Ephemeris data file (sep4_222)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_223",
+      "purpose": "Swiss Ephemeris data file (sep4_223)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_224",
+      "purpose": "Swiss Ephemeris data file (sep4_224)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_225",
+      "purpose": "Swiss Ephemeris data file (sep4_225)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_226",
+      "purpose": "Swiss Ephemeris data file (sep4_226)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_227",
+      "purpose": "Swiss Ephemeris data file (sep4_227)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_228",
+      "purpose": "Swiss Ephemeris data file (sep4_228)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_229",
+      "purpose": "Swiss Ephemeris data file (sep4_229)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_230",
+      "purpose": "Swiss Ephemeris data file (sep4_230)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_231",
+      "purpose": "Swiss Ephemeris data file (sep4_231)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_232",
+      "purpose": "Swiss Ephemeris data file (sep4_232)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_233",
+      "purpose": "Swiss Ephemeris data file (sep4_233)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_234",
+      "purpose": "Swiss Ephemeris data file (sep4_234)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_235",
+      "purpose": "Swiss Ephemeris data file (sep4_235)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_236",
+      "purpose": "Swiss Ephemeris data file (sep4_236)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_237",
+      "purpose": "Swiss Ephemeris data file (sep4_237)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_238",
+      "purpose": "Swiss Ephemeris data file (sep4_238)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_239",
+      "purpose": "Swiss Ephemeris data file (sep4_239)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_240",
+      "purpose": "Swiss Ephemeris data file (sep4_240)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_241",
+      "purpose": "Swiss Ephemeris data file (sep4_241)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_242",
+      "purpose": "Swiss Ephemeris data file (sep4_242)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_243",
+      "purpose": "Swiss Ephemeris data file (sep4_243)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_244",
+      "purpose": "Swiss Ephemeris data file (sep4_244)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_245",
+      "purpose": "Swiss Ephemeris data file (sep4_245)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_246",
+      "purpose": "Swiss Ephemeris data file (sep4_246)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_247",
+      "purpose": "Swiss Ephemeris data file (sep4_247)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_248",
+      "purpose": "Swiss Ephemeris data file (sep4_248)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_249",
+      "purpose": "Swiss Ephemeris data file (sep4_249)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_250",
+      "purpose": "Swiss Ephemeris data file (sep4_250)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_251",
+      "purpose": "Swiss Ephemeris data file (sep4_251)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_252",
+      "purpose": "Swiss Ephemeris data file (sep4_252)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_253",
+      "purpose": "Swiss Ephemeris data file (sep4_253)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_254",
+      "purpose": "Swiss Ephemeris data file (sep4_254)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_255",
+      "purpose": "Swiss Ephemeris data file (sep4_255)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_256",
+      "purpose": "Swiss Ephemeris data file (sep4_256)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_257",
+      "purpose": "Swiss Ephemeris data file (sep4_257)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_258",
+      "purpose": "Swiss Ephemeris data file (sep4_258)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_259",
+      "purpose": "Swiss Ephemeris data file (sep4_259)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_260",
+      "purpose": "Swiss Ephemeris data file (sep4_260)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_261",
+      "purpose": "Swiss Ephemeris data file (sep4_261)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_262",
+      "purpose": "Swiss Ephemeris data file (sep4_262)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_263",
+      "purpose": "Swiss Ephemeris data file (sep4_263)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_264",
+      "purpose": "Swiss Ephemeris data file (sep4_264)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\ep4\\sep4_265",
+      "purpose": "Swiss Ephemeris data file (sep4_265)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\list.zip",
+      "purpose": "Swiss Ephemeris data file (list.zip)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\plmolist.txt",
+      "purpose": "Swiss Ephemeris data file (plmolist.txt)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9401.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9401.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9402.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9402.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9501.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9501.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9502.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9502.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9503.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9503.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9504.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9504.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9599.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9599.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9601.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9601.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9602.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9602.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9603.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9603.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9604.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9604.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9605.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9605.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9606.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9606.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9607.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9607.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9608.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9608.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9699.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9699.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9701.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9701.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9702.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9702.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9703.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9703.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9704.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9704.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9705.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9705.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9799.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9799.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9801.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9801.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9802.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9802.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9808.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9808.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9899.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9899.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9901.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9901.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9902.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9902.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9903.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9903.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9904.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9904.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9905.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9905.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sat\\sepm9999.se1",
+      "purpose": "Swiss Ephemeris data file (sepm9999.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_00.se1",
+      "purpose": "Swiss Ephemeris data file (seas_00.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_06.se1",
+      "purpose": "Swiss Ephemeris data file (seas_06.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_102.se1",
+      "purpose": "Swiss Ephemeris data file (seas_102.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_108.se1",
+      "purpose": "Swiss Ephemeris data file (seas_108.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_114.se1",
+      "purpose": "Swiss Ephemeris data file (seas_114.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_12.se1",
+      "purpose": "Swiss Ephemeris data file (seas_12.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_120.se1",
+      "purpose": "Swiss Ephemeris data file (seas_120.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_126.se1",
+      "purpose": "Swiss Ephemeris data file (seas_126.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_132.se1",
+      "purpose": "Swiss Ephemeris data file (seas_132.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_138.se1",
+      "purpose": "Swiss Ephemeris data file (seas_138.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_144.se1",
+      "purpose": "Swiss Ephemeris data file (seas_144.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_150.se1",
+      "purpose": "Swiss Ephemeris data file (seas_150.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_156.se1",
+      "purpose": "Swiss Ephemeris data file (seas_156.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_162.se1",
+      "purpose": "Swiss Ephemeris data file (seas_162.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_18.se1",
+      "purpose": "Swiss Ephemeris data file (seas_18.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_24.se1",
+      "purpose": "Swiss Ephemeris data file (seas_24.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_30.se1",
+      "purpose": "Swiss Ephemeris data file (seas_30.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_36.se1",
+      "purpose": "Swiss Ephemeris data file (seas_36.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_42.se1",
+      "purpose": "Swiss Ephemeris data file (seas_42.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_48.se1",
+      "purpose": "Swiss Ephemeris data file (seas_48.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_54.se1",
+      "purpose": "Swiss Ephemeris data file (seas_54.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_60.se1",
+      "purpose": "Swiss Ephemeris data file (seas_60.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_66.se1",
+      "purpose": "Swiss Ephemeris data file (seas_66.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_72.se1",
+      "purpose": "Swiss Ephemeris data file (seas_72.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_78.se1",
+      "purpose": "Swiss Ephemeris data file (seas_78.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_84.se1",
+      "purpose": "Swiss Ephemeris data file (seas_84.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_90.se1",
+      "purpose": "Swiss Ephemeris data file (seas_90.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seas_96.se1",
+      "purpose": "Swiss Ephemeris data file (seas_96.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm06.se1",
+      "purpose": "Swiss Ephemeris data file (seasm06.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm102.se1",
+      "purpose": "Swiss Ephemeris data file (seasm102.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm108.se1",
+      "purpose": "Swiss Ephemeris data file (seasm108.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm114.se1",
+      "purpose": "Swiss Ephemeris data file (seasm114.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm12.se1",
+      "purpose": "Swiss Ephemeris data file (seasm12.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm120.se1",
+      "purpose": "Swiss Ephemeris data file (seasm120.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm126.se1",
+      "purpose": "Swiss Ephemeris data file (seasm126.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm132.se1",
+      "purpose": "Swiss Ephemeris data file (seasm132.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm18.se1",
+      "purpose": "Swiss Ephemeris data file (seasm18.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm24.se1",
+      "purpose": "Swiss Ephemeris data file (seasm24.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm30.se1",
+      "purpose": "Swiss Ephemeris data file (seasm30.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm36.se1",
+      "purpose": "Swiss Ephemeris data file (seasm36.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm42.se1",
+      "purpose": "Swiss Ephemeris data file (seasm42.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm48.se1",
+      "purpose": "Swiss Ephemeris data file (seasm48.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm54.se1",
+      "purpose": "Swiss Ephemeris data file (seasm54.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm60.se1",
+      "purpose": "Swiss Ephemeris data file (seasm60.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm66.se1",
+      "purpose": "Swiss Ephemeris data file (seasm66.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm72.se1",
+      "purpose": "Swiss Ephemeris data file (seasm72.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm78.se1",
+      "purpose": "Swiss Ephemeris data file (seasm78.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm84.se1",
+      "purpose": "Swiss Ephemeris data file (seasm84.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm90.se1",
+      "purpose": "Swiss Ephemeris data file (seasm90.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasm96.se1",
+      "purpose": "Swiss Ephemeris data file (seasm96.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seasnam.txt",
+      "purpose": "Swiss Ephemeris data file (seasnam.txt)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sefstars.txt",
+      "purpose": "Swiss Ephemeris data file (sefstars.txt)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt",
+        "src\\jhora\\data\\ephe\\sefstars.txt"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_00.se1",
+      "purpose": "Swiss Ephemeris data file (semo_00.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_06.se1",
+      "purpose": "Swiss Ephemeris data file (semo_06.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_102.se1",
+      "purpose": "Swiss Ephemeris data file (semo_102.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_108.se1",
+      "purpose": "Swiss Ephemeris data file (semo_108.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_114.se1",
+      "purpose": "Swiss Ephemeris data file (semo_114.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_12.se1",
+      "purpose": "Swiss Ephemeris data file (semo_12.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_120.se1",
+      "purpose": "Swiss Ephemeris data file (semo_120.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_126.se1",
+      "purpose": "Swiss Ephemeris data file (semo_126.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_132.se1",
+      "purpose": "Swiss Ephemeris data file (semo_132.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_138.se1",
+      "purpose": "Swiss Ephemeris data file (semo_138.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_144.se1",
+      "purpose": "Swiss Ephemeris data file (semo_144.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_150.se1",
+      "purpose": "Swiss Ephemeris data file (semo_150.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_156.se1",
+      "purpose": "Swiss Ephemeris data file (semo_156.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_162.se1",
+      "purpose": "Swiss Ephemeris data file (semo_162.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_18.se1",
+      "purpose": "Swiss Ephemeris data file (semo_18.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_24.se1",
+      "purpose": "Swiss Ephemeris data file (semo_24.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_30.se1",
+      "purpose": "Swiss Ephemeris data file (semo_30.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_36.se1",
+      "purpose": "Swiss Ephemeris data file (semo_36.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_42.se1",
+      "purpose": "Swiss Ephemeris data file (semo_42.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_48.se1",
+      "purpose": "Swiss Ephemeris data file (semo_48.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_54.se1",
+      "purpose": "Swiss Ephemeris data file (semo_54.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_60.se1",
+      "purpose": "Swiss Ephemeris data file (semo_60.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_66.se1",
+      "purpose": "Swiss Ephemeris data file (semo_66.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_72.se1",
+      "purpose": "Swiss Ephemeris data file (semo_72.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_78.se1",
+      "purpose": "Swiss Ephemeris data file (semo_78.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_84.se1",
+      "purpose": "Swiss Ephemeris data file (semo_84.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_90.se1",
+      "purpose": "Swiss Ephemeris data file (semo_90.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semo_96.se1",
+      "purpose": "Swiss Ephemeris data file (semo_96.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom06.se1",
+      "purpose": "Swiss Ephemeris data file (semom06.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom102.se1",
+      "purpose": "Swiss Ephemeris data file (semom102.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom108.se1",
+      "purpose": "Swiss Ephemeris data file (semom108.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom114.se1",
+      "purpose": "Swiss Ephemeris data file (semom114.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom12.se1",
+      "purpose": "Swiss Ephemeris data file (semom12.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom120.se1",
+      "purpose": "Swiss Ephemeris data file (semom120.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom126.se1",
+      "purpose": "Swiss Ephemeris data file (semom126.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom132.se1",
+      "purpose": "Swiss Ephemeris data file (semom132.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom18.se1",
+      "purpose": "Swiss Ephemeris data file (semom18.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom24.se1",
+      "purpose": "Swiss Ephemeris data file (semom24.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom30.se1",
+      "purpose": "Swiss Ephemeris data file (semom30.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom36.se1",
+      "purpose": "Swiss Ephemeris data file (semom36.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom42.se1",
+      "purpose": "Swiss Ephemeris data file (semom42.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom48.se1",
+      "purpose": "Swiss Ephemeris data file (semom48.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom54.se1",
+      "purpose": "Swiss Ephemeris data file (semom54.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom60.se1",
+      "purpose": "Swiss Ephemeris data file (semom60.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom66.se1",
+      "purpose": "Swiss Ephemeris data file (semom66.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom72.se1",
+      "purpose": "Swiss Ephemeris data file (semom72.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom78.se1",
+      "purpose": "Swiss Ephemeris data file (semom78.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom84.se1",
+      "purpose": "Swiss Ephemeris data file (semom84.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom90.se1",
+      "purpose": "Swiss Ephemeris data file (semom90.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\semom96.se1",
+      "purpose": "Swiss Ephemeris data file (semom96.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seorbel.txt",
+      "purpose": "Swiss Ephemeris data file (seorbel.txt)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_00.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_00.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_06.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_06.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_102.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_102.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_108.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_108.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_114.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_114.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_12.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_12.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_120.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_120.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_126.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_126.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_132.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_132.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_138.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_138.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_144.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_144.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_150.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_150.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_156.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_156.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_162.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_162.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_18.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_18.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_24.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_24.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_30.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_30.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_36.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_36.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_42.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_42.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_48.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_48.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_54.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_54.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_60.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_60.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_66.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_66.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_72.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_72.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_78.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_78.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_84.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_84.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_90.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_90.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\sepl_96.se1",
+      "purpose": "Swiss Ephemeris data file (sepl_96.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm06.se1",
+      "purpose": "Swiss Ephemeris data file (seplm06.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm102.se1",
+      "purpose": "Swiss Ephemeris data file (seplm102.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm108.se1",
+      "purpose": "Swiss Ephemeris data file (seplm108.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm114.se1",
+      "purpose": "Swiss Ephemeris data file (seplm114.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm12.se1",
+      "purpose": "Swiss Ephemeris data file (seplm12.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm120.se1",
+      "purpose": "Swiss Ephemeris data file (seplm120.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm126.se1",
+      "purpose": "Swiss Ephemeris data file (seplm126.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm132.se1",
+      "purpose": "Swiss Ephemeris data file (seplm132.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm18.se1",
+      "purpose": "Swiss Ephemeris data file (seplm18.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm24.se1",
+      "purpose": "Swiss Ephemeris data file (seplm24.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm30.se1",
+      "purpose": "Swiss Ephemeris data file (seplm30.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm36.se1",
+      "purpose": "Swiss Ephemeris data file (seplm36.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm42.se1",
+      "purpose": "Swiss Ephemeris data file (seplm42.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm48.se1",
+      "purpose": "Swiss Ephemeris data file (seplm48.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm54.se1",
+      "purpose": "Swiss Ephemeris data file (seplm54.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm60.se1",
+      "purpose": "Swiss Ephemeris data file (seplm60.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm66.se1",
+      "purpose": "Swiss Ephemeris data file (seplm66.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm72.se1",
+      "purpose": "Swiss Ephemeris data file (seplm72.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm78.se1",
+      "purpose": "Swiss Ephemeris data file (seplm78.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm84.se1",
+      "purpose": "Swiss Ephemeris data file (seplm84.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm90.se1",
+      "purpose": "Swiss Ephemeris data file (seplm90.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\ephe\\seplm96.se1",
+      "purpose": "Swiss Ephemeris data file (seplm96.se1)",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\hindu_festivals_multilingual_unicode_bom - Copy.csv",
+      "purpose": "Tabular dataset used by Panchanga/match components",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\hindu_festivals_multilingual_unicode_bom.csv",
+      "purpose": "Tabular dataset used by Panchanga/match components",
+      "consumed_by": [
+        "PyJHora_API_Inventory.json",
+        "PyJHora_Structural_Map.md",
+        "README.md",
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "pyjhora_knowledge\\inventory\\PyJHora_API_Inventory.json",
+        "pyjhora_knowledge\\maps\\PyJHora_Structural_Map.md",
+        "src\\PyJHora.egg-info\\PKG-INFO"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\Marriage_Compatibility-V4.0.1.xlsx",
+      "purpose": "Marriage compatibility score database",
+      "consumed_by": [
+        "README.md",
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\PKG-INFO",
+        "src\\jhora\\README.md"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\pancha_pakshi_db.csv",
+      "purpose": "Pancha Pakshi Sastra data",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt",
+        "src\\jhora\\panchanga\\pancha_paksha - Copy.py",
+        "src\\jhora\\panchanga\\pancha_paksha.py",
+        "src\\v0min\\panchanga_extras_extract.py"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\program_inputs.txt",
+      "purpose": "Supporting data file",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt",
+        "src\\jhora\\const.py",
+        "src\\jhora\\ui\\match_ui.py"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\uscities.csv",
+      "purpose": "Tabular dataset used by Panchanga/match components",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\world_cities_db.csv",
+      "purpose": "World cities database with timezone offsets",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\world_cities_with_tz.csv",
+      "purpose": "World cities database with timezone offsets",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt",
+        "src\\jhora\\const.py"
+      ]
+    },
+    {
+      "path": "src\\jhora\\data\\world_cities_with_tz_old.csv",
+      "purpose": "World cities database with timezone offsets",
+      "consumed_by": [
+        "project_tree_full.txt",
+        "pyjhora_knowledge\\data_map\\PyJHora_Data_Files_Map.json",
+        "src\\PyJHora.egg-info\\SOURCES.txt"
+      ]
+    }
+  ]
+}

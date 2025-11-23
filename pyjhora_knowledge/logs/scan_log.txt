@@ -1,0 +1,9 @@
+Scan mode: import-based (import + AST fallback)
+Modules failed to import (0):
+Total modules: 111
+Total public functions: 1163
+Total experimental flags: 44
+Files produced:
+- D:\Pyjhora\PyJHora_broken_backup\PyJHora_Structural_Map.md
+- D:\Pyjhora\PyJHora_broken_backup\PyJHora_Structural_Map_summary.json
+- D:\Pyjhora\PyJHora_broken_backup\PyJHora_API_Inventory.json
