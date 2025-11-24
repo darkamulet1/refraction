@@ -44,7 +44,7 @@ Legacy `v0min` code (data, bridges, adapters) is stored in `maintenance/legacy-v
 ## Phase 2+: Integration & Testing
 
 - Build FastAPI/React slices that consume Refraction Engine outputs.  
-- Align tests with `pyjhora_knowledge/tests_contract` suites.  
+- Align tests with `docs/pyjhora_knowledge/tests_contract` suites.  
 - Archive any legacy v0min instructions in documentation, keeping the narrative PyJHora-centric.
 
 ---

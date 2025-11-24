@@ -42,7 +42,7 @@ The chosen path is a direct PyJHora integration plus a lightweight validation la
 
 1. **FastAPI endpoints**: expose `/api/v1/calculate` powered by `RefractionEngine` (which internally uses `refraction_engine.core_chart`), not v0min.
 2. **React UI**: call backend via standard fetch, display results from JSON shaped by the spec.
-3. **Testing**: run pytest, coverage, golden outputs referencing `pyjhora_knowledge/tests_contract` scripts while keeping focus on PyJHora modules.
+3. **Testing**: run pytest, coverage, golden outputs referencing `docs/pyjhora_knowledge/tests_contract` scripts while keeping focus on PyJHora modules.
 
 ---
 
