@@ -1,0 +1,21 @@
+import jsonschema
+import pytest
+
+from refraction_engine import run_dashas_vimshottari
+
+from ._utils import load_json
+
+
+@pytest.mark.parametrize(
+    "fixture",
+    [
+        "references/in/mehran_birth.json",
+        "references/in/athena_birth.json",
+    ],
+)
+def test_dashas_vimshottari_matches_schema(fixture: str):
+    schema = load_json("docs/specs/dashas_vimshottari_spec_v1.schema.json")
+    payload = load_json(fixture)
+    result = run_dashas_vimshottari(payload)
+
+    jsonschema.validate(instance=result, schema=schema)

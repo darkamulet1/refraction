@@ -1,0 +1,139 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "panchanga_spec_v1",
+  "type": "object",
+  "required": ["meta", "panchanga"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schema_version", "timestamp_utc", "jd_utc"],
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "const": "panchanga_spec_v1"
+        },
+        "timestamp_utc": { "type": "string" },
+        "ayanamsa_deg": { "type": ["number", "null"] },
+        "jd_utc": { "type": "number" }
+      },
+      "additionalProperties": true
+    },
+    "panchanga": {
+      "type": "object",
+      "required": [
+        "reference",
+        "tithi",
+        "nakshatra",
+        "yoga",
+        "karana",
+        "vaara",
+        "sunrise",
+        "sunset",
+        "hora_lord",
+        "auspicious_windows",
+        "inauspicious_windows"
+      ],
+      "properties": {
+        "reference": {
+          "type": "object",
+          "required": ["datetime_utc", "timezone", "location"],
+          "properties": {
+            "datetime_utc": { "type": "string" },
+            "timezone": { "type": "string" },
+            "location": {
+              "type": "object",
+              "required": ["latitude", "longitude"],
+              "properties": {
+                "latitude": { "type": "number" },
+                "longitude": { "type": "number" }
+              },
+              "additionalProperties": true
+            }
+          },
+          "additionalProperties": true
+        },
+        "tithi": {
+          "type": "object",
+          "required": ["index", "name", "paksha", "remaining_percentage"],
+          "properties": {
+            "index": { "type": "integer" },
+            "name": { "type": "string" },
+            "paksha": { "type": "string" },
+            "remaining_percentage": { "type": "number" }
+          },
+          "additionalProperties": true
+        },
+        "nakshatra": {
+          "type": "object",
+          "required": ["index", "name", "pada", "lord", "span_deg"],
+          "properties": {
+            "index": { "type": "integer" },
+            "name": { "type": "string" },
+            "pada": { "type": "integer" },
+            "lord": { "type": ["string", "null"] },
+            "span_deg": { "type": "number" }
+          },
+          "additionalProperties": true
+        },
+        "yoga": {
+          "type": "object",
+          "required": ["index", "name"],
+          "properties": {
+            "index": { "type": "integer" },
+            "name": { "type": "string" }
+          },
+          "additionalProperties": true
+        },
+        "karana": {
+          "type": "object",
+          "required": ["index", "name"],
+          "properties": {
+            "index": { "type": "integer" },
+            "name": { "type": "string" }
+          },
+          "additionalProperties": true
+        },
+        "vaara": {
+          "type": "object",
+          "required": ["index", "name"],
+          "properties": {
+            "index": { "type": "integer" },
+            "name": { "type": "string" }
+          },
+          "additionalProperties": true
+        },
+        "hora_lord": { "type": "string" },
+        "sunrise": { "type": "string" },
+        "sunset": { "type": "string" },
+        "auspicious_windows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["start", "end"],
+            "properties": {
+              "start": { "type": "string" },
+              "end": { "type": "string" },
+              "tag": { "type": ["string", "null"] }
+            },
+            "additionalProperties": true
+          }
+        },
+        "inauspicious_windows": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["start", "end"],
+            "properties": {
+              "start": { "type": "string" },
+              "end": { "type": "string" },
+              "tag": { "type": ["string", "null"] }
+            },
+            "additionalProperties": true
+          }
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,119 @@
+{
+  "subject": "arman",
+  "ayanamsa": {
+    "name": "Lahiri",
+    "value": 24.582378,
+    "node_mode": "mean"
+  },
+  "birth": {
+    "date": "1988-09-11",
+    "time": "06:45:45",
+    "timezone": "+03:30",
+    "coordinates": {
+      "latitude": 35.7,
+      "longitude": 51.416666666666664
+    }
+  },
+  "planets_d1": {
+    "sun": {
+      "longitude_deg": 144.90668022366333,
+      "longitude_dms": "144:54:24",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 11,
+        "name": "Purva Phalguni",
+        "pada": 4
+      }
+    },
+    "moon": {
+      "longitude_deg": 144.20542337342286,
+      "longitude_dms": "144:12:20",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 11,
+        "name": "Purva Phalguni",
+        "pada": 4
+      }
+    },
+    "mars": {
+      "longitude_deg": 346.09717859379197,
+      "longitude_dms": "346:05:50",
+      "retrograde": true,
+      "nakshatra": {
+        "index": 26,
+        "name": "Uttara Bhadrapada",
+        "pada": 4
+      }
+    },
+    "mercury": {
+      "longitude_deg": 171.03326262895004,
+      "longitude_dms": "171:02:00",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 13,
+        "name": "Hasta",
+        "pada": 4
+      }
+    },
+    "jupiter": {
+      "longitude_deg": 42.13025552090714,
+      "longitude_dms": "42:07:49",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 4,
+        "name": "Rohini",
+        "pada": 1
+      }
+    },
+    "venus": {
+      "longitude_deg": 100.18562109498994,
+      "longitude_dms": "100:11:08",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 8,
+        "name": "Pushya",
+        "pada": 3
+      }
+    },
+    "saturn": {
+      "longitude_deg": 242.34043669638274,
+      "longitude_dms": "242:20:26",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 19,
+        "name": "Mula",
+        "pada": 1
+      }
+    },
+    "rahu": {
+      "longitude_deg": 320.01075685193695,
+      "longitude_dms": "320:00:39",
+      "retrograde": true,
+      "nakshatra": {
+        "index": 25,
+        "name": "Purva Bhadrapada",
+        "pada": 1
+      }
+    },
+    "ketu": {
+      "longitude_deg": 140.01075685193695,
+      "longitude_dms": "140:00:39",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 11,
+        "name": "Purva Phalguni",
+        "pada": 3
+      }
+    },
+    "lagna": {
+      "longitude_deg": 156.8985887957917,
+      "longitude_dms": "156:53:55",
+      "retrograde": false,
+      "nakshatra": {
+        "index": 12,
+        "name": "Uttara Phalguni",
+        "pada": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "core_input_spec_v1",
+  "type": "object",
+  "required": ["birth", "config"],
+  "properties": {
+    "person": {
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "label": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "birth": {
+      "type": "object",
+      "required": ["datetime_local", "timezone_name", "location"],
+      "properties": {
+        "datetime_local": { "type": "string" },
+        "timezone_name": { "type": "string" },
+        "location": {
+          "type": "object",
+          "required": ["lat", "lon"],
+          "properties": {
+            "name": { "type": "string" },
+            "lat": { "type": "number" },
+            "lon": { "type": "number" }
+          },
+          "additionalProperties": true
+        }
+      },
+      "additionalProperties": true
+    },
+    "config": {
+      "type": "object",
+      "required": ["zodiac_type", "house_system"],
+      "properties": {
+        "zodiac_type": { "type": "string" },
+        "ayanamsa_mode": { "type": ["string", "null"] },
+        "ayanamsa_value_deg": { "type": ["number", "null"] },
+        "house_system": { "type": "string" },
+        "node_mode": { "type": "string", "enum": ["TRUE", "MEAN"] },
+        "include_bodies": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": true
+}

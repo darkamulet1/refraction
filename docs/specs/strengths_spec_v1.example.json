@@ -1,0 +1,50 @@
+{
+  "meta": {
+    "schema_version": "strengths_spec_v1",
+    "timestamp_utc": "2025-01-01T12:00:00Z",
+    "engine": {
+      "name": "PyJHora",
+      "version": "4.5.5"
+    },
+    "extractor": "strengths"
+  },
+  "person": {
+    "id": "sample_person",
+    "label": "Sample"
+  },
+  "config_echo": {
+    "zodiac_type": "SIDEREAL",
+    "ayanamsa_mode": "LAHIRI",
+    "ayanamsa_value_deg": null,
+    "house_system": "5",
+    "node_mode": "TRUE"
+  },
+  "frames": {
+    "planets": [
+      {
+        "planet_id": "SUN",
+        "total_shadbala": 812.4,
+        "strength_ratio": 1.02
+      },
+      {
+        "planet_id": "MOON",
+        "total_shadbala": 945.2,
+        "strength_ratio": 1.21
+      },
+      {
+        "planet_id": "MARS",
+        "total_shadbala": 672.1,
+        "strength_ratio": 0.78
+      }
+    ],
+    "summary": {
+      "strong_planets": [
+        "MOON"
+      ],
+      "weak_planets": [
+        "MARS"
+      ],
+      "notes": "total_shadbala expressed in shastiamsa (sum of six bala components)."
+    }
+  }
+}

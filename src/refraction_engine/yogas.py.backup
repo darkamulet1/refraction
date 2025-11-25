@@ -1,0 +1,391 @@
+"""Yogas extractor based on PyJHora outputs."""
+
+from __future__ import annotations
+
+from datetime import datetime
+from typing import Any, Dict, List, Optional
+
+from .core_chart import run_core_chart
+
+
+CATEGORY_ENUM = {
+    "PANCHA_MAHAPURUSHA",
+    "RAJA",
+    "WEALTH",
+    "DOSHA",
+    "CHANDRA",
+    "SURYA",
+    "NABHASA",
+    "SPECIAL",
+    "OTHER",
+}
+
+STRENGTH_POINTS = {"STRONG": 10, "MODERATE": 5, "WEAK": 2}
+
+KENDRA_HOUSES = {1, 4, 7, 10}
+PANCHA_DEFINITIONS = [
+    ("MARS", "RUCHAKA_YOGA", {"ARIES", "SCORPIO"}, {"CAPRICORN"}),
+    ("MERCURY", "BHADRA_YOGA", {"GEMINI", "VIRGO"}, {"VIRGO"}),
+    ("JUPITER", "HAMSA_YOGA", {"SAGITTARIUS", "PISCES"}, {"CANCER"}),
+    ("VENUS", "MALAVYA_YOGA", {"TAURUS", "LIBRA"}, {"PISCES"}),
+    ("SATURN", "SASA_YOGA", {"CAPRICORN", "AQUARIUS"}, {"LIBRA"}),
+]
+
+
+def run_yogas(payload: Dict[str, Any]) -> Dict[str, Any]:
+    """Produce the yogas payload aligned to yogas_spec_v1."""
+    core_chart = run_core_chart(payload)
+    frame = _select_primary_frame(core_chart)
+    planets = frame.get("planets", [])
+    houses = frame.get("houses", [])
+
+    yogas: List[Dict[str, Any]] = []
+    for detector in [
+        _detect_gaja_kesari(planets),
+        _detect_kala_sarpa(planets, houses),
+        _detect_kemadruma(planets),
+        _detect_raja_yogas(planets),
+        _detect_budhaditya(planets),
+        _detect_chandra_mangala(planets),
+        _detect_adhi_yoga(planets),
+    ]:
+        if detector:
+            yogas.append(detector)
+
+    yogas.extend(_detect_pancha_mahapurusha(planets))
+    yogas.extend(_detect_dhana_yogas(planets))
+
+    summary = _create_summary(yogas)
+
+    return {
+        "meta": {
+            "schema_version": "yogas_spec_v1",
+            "timestamp_utc": datetime.utcnow().isoformat() + "Z",
+            "jd_utc": frame.get("jd") or core_chart["meta"].get("jd_utc"),
+            "ayanamsa_deg": core_chart["meta"].get("ayanamsa_deg"),
+        },
+        "person": core_chart.get("person", {}),
+        "config_echo": core_chart.get("config_echo", {}),
+        "frames": {"yogas": yogas, "summary": summary},
+    }
+
+
+def _select_primary_frame(core_chart: Dict[str, Any]) -> Dict[str, Any]:
+    frames = core_chart.get("frames")
+    if isinstance(frames, list) and frames:
+        return frames[0]
+    if isinstance(frames, dict):
+        nested = frames.get("frames")
+        if isinstance(nested, list) and nested:
+            return nested[0]
+    raise ValueError("Core chart frames are missing")
+
+
+def _get_planet(planets: List[Dict[str, Any]], planet_id: str) -> Optional[Dict[str, Any]]:
+    for planet in planets:
+        if planet.get("id") == planet_id:
+            return planet
+    return None
+
+
+def _in_kendra(house_a: Optional[int], house_b: Optional[int]) -> bool:
+    if house_a is None or house_b is None:
+        return False
+    diff = abs(house_a - house_b) % 12
+    diff = diff if diff <= 6 else 12 - diff
+    return diff in {0, 3}
+
+
+def _detect_gaja_kesari(planets: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    jupiter = _get_planet(planets, "JUPITER")
+    moon = _get_planet(planets, "MOON")
+    if not jupiter or not moon:
+        return None
+    if _in_kendra(jupiter.get("house_index"), moon.get("house_index")):
+        return {
+            "id": "GAJA_KESARI",
+            "name": "Gaja Kesari Yoga",
+            "category": "WEALTH",
+            "tier": 1,
+            "planets": ["JUPITER", "MOON"],
+            "description": "Jupiter in kendra from Moon",
+            "strength": "STRONG",
+            "active": True,
+            "formation_details": {
+                "jupiter_house": jupiter.get("house_index"),
+                "moon_house": moon.get("house_index"),
+                "angle": "kendra",
+            },
+        }
+    return None
+
+
+def _detect_pancha_mahapurusha(planets: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    yogas: List[Dict[str, Any]] = []
+    for planet_id, yoga_id, own_set, exalt_set in PANCHA_DEFINITIONS:
+        planet = _get_planet(planets, planet_id)
+        if not planet:
+            continue
+        house = planet.get("house_index")
+        sign = planet.get("sign_name")
+        if house not in KENDRA_HOUSES or not sign:
+            continue
+        strength = "MODERATE"
+        if sign in exalt_set:
+            strength = "STRONG"
+        elif sign in own_set:
+            strength = "MODERATE"
+        else:
+            continue
+        yogas.append({
+            "id": yoga_id,
+            "name": planet_id.replace("_", " ").title(),
+            "category": "PANCHA_MAHAPURUSHA",
+            "tier": 1,
+            "planet": planet_id,
+            "description": f"{planet_id} in kendra with dignity",
+            "strength": strength,
+            "active": True,
+            "formation_details": {
+                "planet_sign": sign,
+                "planet_house": house,
+                "dignity": "exaltation" if sign in exalt_set else "own",
+            },
+        })
+    return yogas
+
+
+def _detect_kala_sarpa(planets: List[Dict[str, Any]], houses: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    rahu = _get_planet(planets, "RAHU")
+    if not rahu:
+        return None
+    rahu_long = rahu.get("longitude_deg")
+    if rahu_long is None:
+        return None
+    ketu_long = (rahu_long + 180) % 360
+    rahu_house = _house_index_for_longitude(rahu_long, houses)
+    ketu_house = _house_index_for_longitude(ketu_long, houses)
+    for planet in planets:
+        if planet.get("id") == "RAHU":
+            continue
+        if not _is_between_axis(planet.get("longitude_deg"), rahu_long, ketu_long):
+            return None
+    return {
+        "id": "KALA_SARPA",
+        "name": "Kala Sarpa Dosha",
+        "category": "DOSHA",
+        "tier": 1,
+        "planets": ["RAHU", "KETU"],
+        "description": "All planets hemmed between Rahu-Ketu axis",
+        "strength": "STRONG",
+        "active": True,
+        "malefic": True,
+        "formation_details": {
+            "type": "Anant",
+            "rahu_house": rahu_house,
+            "ketu_house": ketu_house,
+        },
+    }
+
+
+def _detect_kemadruma(planets: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    moon = _get_planet(planets, "MOON")
+    if not moon:
+        return None
+    moon_house = moon.get("house_index")
+    if moon_house is None:
+        return None
+    second = ((moon_house - 1 + 1) % 12) + 1
+    twelfth = ((moon_house - 1 + 11) % 12) + 1
+    occupied = {p.get("house_index") for p in planets if p.get("id") not in {"MOON", "RAHU", "KETU"}}
+    if second not in occupied and twelfth not in occupied:
+        return {
+            "id": "KEMADRUMA",
+            "name": "Kemadruma Yoga",
+            "category": "DOSHA",
+            "tier": 1,
+            "planet": "MOON",
+            "description": "Moon isolated with no planets in 2nd/12th",
+            "strength": "STRONG",
+            "active": True,
+            "malefic": True,
+            "formation_details": {"moon_house": moon_house},
+        }
+    return None
+
+
+def _detect_dhana_yogas(planets: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    results: List[Dict[str, Any]] = []
+    for planet_id, category in [("VENUS", "WEALTH"), ("JUPITER", "WEALTH")]:
+        planet = _get_planet(planets, planet_id)
+        if not planet:
+            continue
+        sign = planet.get("sign_name")
+        if sign in {"TAURUS", "LIBRA", "PISCES", "SAGITTARIUS", "CANCER"}:
+            results.append({
+                "id": f"DHANA_{planet_id}",
+                "name": f"Dhana Yoga ({planet_id})",
+                "category": category,
+                "tier": 2,
+                "planet": planet_id,
+                "description": f"{planet_id} in benefic dignity",
+                "strength": "MODERATE",
+                "active": True,
+                "formation_details": {
+                    "planet_sign": sign,
+                    "planet_house": planet.get("house_index"),
+                },
+            })
+    return results
+
+
+def _detect_raja_yogas(planets: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    jupiter = _get_planet(planets, "JUPITER")
+    if not jupiter:
+        return None
+    house = jupiter.get("house_index")
+    if house in KENDRA_HOUSES:
+        return {
+            "id": "RAJA_JUPITER",
+            "name": "Raja Yoga (Jupiter)",
+            "category": "RAJA",
+            "tier": 2,
+            "planet": "JUPITER",
+            "description": "Jupiter in angular house",
+            "strength": "MODERATE",
+            "active": True,
+            "formation_details": {"planet_house": house},
+        }
+    return None
+
+
+def _detect_budhaditya(planets: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    sun = _get_planet(planets, "SUN")
+    mercury = _get_planet(planets, "MERCURY")
+    if not sun or not mercury:
+        return None
+    if sun.get("sign_name") == mercury.get("sign_name"):
+        return {
+            "id": "BUDHADITYA",
+            "name": "Budhaditya Yoga",
+            "category": "SPECIAL",
+            "tier": 3,
+            "planets": ["SUN", "MERCURY"],
+            "description": "Sun-Mercury conjunction",
+            "strength": "MODERATE",
+            "active": True,
+            "formation_details": {"sign": sun.get("sign_name")},
+        }
+    return None
+
+
+def _detect_chandra_mangala(planets: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    moon = _get_planet(planets, "MOON")
+    mars = _get_planet(planets, "MARS")
+    if not moon or not mars:
+        return None
+    if moon.get("sign_name") == mars.get("sign_name"):
+        return {
+            "id": "CHANDRA_MANGALA",
+            "name": "Chandra Mangala Yoga",
+            "category": "WEALTH",
+            "tier": 3,
+            "planets": ["MOON", "MARS"],
+            "description": "Moon-Mars conjunction",
+            "strength": "MODERATE",
+            "active": True,
+            "formation_details": {"sign": moon.get("sign_name")},
+        }
+    return None
+
+
+def _detect_adhi_yoga(planets: List[Dict[str, Any]]) -> Optional[Dict[str, Any]]:
+    moon = _get_planet(planets, "MOON")
+    if not moon:
+        return None
+    moon_house = moon.get("house_index")
+    if moon_house is None:
+        return None
+    benefics = ["MERCURY", "JUPITER", "VENUS"]
+    distant = 0
+    for planet_id in benefics:
+        planet = _get_planet(planets, planet_id)
+        if not planet:
+            continue
+        if _is_benefic_in_six_seven_eight(moon_house, planet.get("house_index")):
+            distant += 1
+    if distant >= 2:
+        return {
+            "id": "ADHI",
+            "name": "Adhi Yoga",
+            "category": "SPECIAL",
+            "tier": 4,
+            "description": "Benefics around Moon",
+            "strength": "MODERATE" if distant == 2 else "STRONG",
+            "active": True,
+            "formation_details": {"benefics": distant},
+        }
+    return None
+
+
+def _is_benefic_in_six_seven_eight(moon_house: int, planet_house: Optional[int]) -> bool:
+    if planet_house is None:
+        return False
+    second_house = ((moon_house - 1 + 5) % 12) + 1
+    third_house = ((moon_house - 1 + 6) % 12) + 1
+    fourth_house = ((moon_house - 1 + 7) % 12) + 1
+    return planet_house in {second_house, third_house, fourth_house}
+
+
+def _house_index_for_longitude(longitude: Optional[float], houses: List[Dict[str, Any]]) -> Optional[int]:
+    if longitude is None or not houses:
+        return None
+    lon = longitude % 360
+    for house in houses:
+        start = house.get("start_deg", 0) % 360
+        end = house.get("end_deg", 0) % 360
+        if start < end:
+            if start <= lon < end:
+                return house.get("index")
+        else:
+            if lon >= start or lon < end:
+                return house.get("index")
+    return None
+
+
+def _is_between_axis(value: Optional[float], start: float, end: float) -> bool:
+    if value is None:
+        return False
+    value = value % 360
+    start = start % 360
+    end = end % 360
+    if start <= end:
+        return start <= value <= end
+    return value >= start or value <= end
+
+
+def _create_summary(yogas: List[Dict[str, Any]]) -> Dict[str, Any]:
+    total = len(yogas)
+    active = sum(1 for y in yogas if y.get("active"))
+    by_category: Dict[str, int] = {}
+    by_tier: Dict[str, int] = {}
+    malefic = 0
+    strength_score = 0
+    for yoga in yogas:
+        category = yoga.get("category")
+        if category:
+            by_category[category] = by_category.get(category, 0) + 1
+        tier = str(yoga.get("tier", 0))
+        by_tier[tier] = by_tier.get(tier, 0) + 1
+        strength_score += STRENGTH_POINTS.get(yoga.get("strength"), 0)
+        if yoga.get("malefic"):
+            malefic += 1
+            strength_score -= 8
+    return {
+        "total_yogas": total,
+        "active_yogas": active,
+        "by_category": by_category,
+        "by_tier": by_tier,
+        "strength_score": max(0, strength_score),
+        "malefic_count": malefic,
+    }

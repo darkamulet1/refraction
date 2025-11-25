@@ -1,0 +1,859 @@
+meta:
+  schema_version: vedic_master.v2
+  engine_version: 4.5.5
+  source_jd_mode: LOCAL_WITH_DST
+  source_file_hint: Mehran_full_pyjhora
+  person: Mehran
+  jd:
+    mode: LOCAL_WITH_DST
+    jd_utc: 2450607.1656944444
+    jd_local: 2450607.3531944444
+birth:
+  datetime_local: '1997-06-07T20:28:36+04:30'
+  datetime_utc: '1997-06-07T15:58:36+00:00'
+  timezone: Asia/Tehran
+  utc_offset_hours: 4.5
+  location:
+    name: Tehran
+    latitude_deg: 35.6892
+    longitude_deg: 51.389
+ayanamsa:
+  mode: LAHIRI
+  value_deg: 23.82123250011523
+core_charts:
+  D1:
+    lagna:
+      sign: Scorpio
+      degree: 236.351874
+      house: 1
+      nakshatra: Jyeshtha
+      pada: 3
+    planets:
+      Sun:
+        sign: Taurus
+        degree: 53.116742
+        house: 7
+        nakshatra: Rohini
+        pada: 4
+      Moon:
+        sign: Gemini
+        degree: 81.63502
+        house: 8
+        nakshatra: Punarvasu
+        pada: 1
+      Mars:
+        sign: Virgo
+        degree: 151.455584
+        house: 11
+        nakshatra: Uttara Phalguni
+        pada: 2
+      Mercury:
+        sign: Taurus
+        degree: 33.938458
+        house: 7
+        nakshatra: Krittika
+        pada: 3
+      Jupiter:
+        sign: Capricorn
+        degree: 298.111398
+        house: 3
+        nakshatra: Dhanishtha
+        pada: 2
+      Venus:
+        sign: Gemini
+        degree: 70.455207
+        house: 8
+        nakshatra: Ardra
+        pada: 2
+      Saturn:
+        sign: Pisces
+        degree: 354.093886
+        house: 5
+        nakshatra: Revati
+        pada: 3
+      Rahu:
+        sign: Virgo
+        degree: 150.885151
+        house: 11
+        nakshatra: Uttara Phalguni
+        pada: 2
+      Ketu:
+        sign: Pisces
+        degree: 330.885151
+        house: 5
+        nakshatra: Purva Bhadrapada
+        pada: 4
+    house_occupancy:
+      2:
+      - Sun
+      - Mercury
+      3:
+      - Moon
+      - Venus
+      6:
+      - Mars
+      - Rahu
+      10:
+      - Jupiter
+      12:
+      - Saturn
+      - Ketu
+  D9:
+    lagna:
+      sign: Aquarius
+      degree: 327.166864
+      house: 1
+      nakshatra: Purva Bhadrapada
+      pada: 3
+    planets:
+      Sun:
+        sign: Cancer
+        degree: 118.050682
+        house: 6
+        nakshatra: Ashlesha
+        pada: 4
+      Moon:
+        sign: Aries
+        degree: 14.715183
+        house: 3
+        nakshatra: Bharani
+        pada: 1
+      Mars:
+        sign: Capricorn
+        degree: 283.10026
+        house: 12
+        nakshatra: Shravana
+        pada: 1
+      Mercury:
+        sign: Aquarius
+        degree: 305.446121
+        house: 1
+        nakshatra: Dhanishtha
+        pada: 4
+      Jupiter:
+        sign: Virgo
+        degree: 163.002582
+        house: 8
+        nakshatra: Hasta
+        pada: 1
+      Venus:
+        sign: Capricorn
+        degree: 274.096863
+        house: 12
+        nakshatra: Uttara Ashadha
+        pada: 3
+      Saturn:
+        sign: Aquarius
+        degree: 306.844974
+        house: 1
+        nakshatra: Shatabhisha
+        pada: 1
+      Rahu:
+        sign: Capricorn
+        degree: 277.966362
+        house: 12
+        nakshatra: Uttara Ashadha
+        pada: 4
+      Ketu:
+        sign: Cancer
+        degree: 97.966362
+        house: 6
+        nakshatra: Pushya
+        pada: 2
+  D10:
+    lagna:
+      sign: Pisces
+      degree: 353.518738
+      house: 1
+      nakshatra: Revati
+      pada: 3
+    planets:
+      Sun:
+        sign: Leo
+        degree: 141.167424
+        house: 6
+        nakshatra: Purva Phalguni
+        pada: 3
+      Moon:
+        sign: Capricorn
+        degree: 276.350204
+        house: 11
+        nakshatra: Uttara Ashadha
+        pada: 3
+      Mars:
+        sign: Taurus
+        degree: 44.555845
+        house: 3
+        nakshatra: Rohini
+        pada: 2
+      Mercury:
+        sign: Aquarius
+        degree: 309.384579
+        house: 12
+        nakshatra: Shatabhisha
+        pada: 1
+      Jupiter:
+        sign: Gemini
+        degree: 71.11398
+        house: 4
+        nakshatra: Ardra
+        pada: 2
+      Venus:
+        sign: Virgo
+        degree: 164.55207
+        house: 7
+        nakshatra: Hasta
+        pada: 2
+      Saturn:
+        sign: Cancer
+        degree: 90.938859
+        house: 5
+        nakshatra: Punarvasu
+        pada: 4
+      Rahu:
+        sign: Taurus
+        degree: 38.851514
+        house: 3
+        nakshatra: Krittika
+        pada: 4
+      Ketu:
+        sign: Scorpio
+        degree: 218.851514
+        house: 9
+        nakshatra: Anuradha
+        pada: 2
+strength:
+  shadbala:
+    Sun:
+      sthana: 195.63
+      kaala: 191.7
+      dig: 96.94
+      cheshta: 0
+      naisargika: 60.0
+      drik: -0.3
+      sum_shastiamsa: 543.97
+      total_rupa: 9.07
+      strength_ratio: 1.81
+      percent: 181.0
+    Moon:
+      sthana: 223.79
+      kaala: 132.3
+      dig: 27.43
+      cheshta: 0
+      naisargika: 51.43
+      drik: -16.21
+      sum_shastiamsa: 418.74
+      total_rupa: 6.98
+      strength_ratio: 1.16
+      percent: 116.0
+    Mars:
+      sthana: 110.53
+      kaala: 120.01
+      dig: 64.16
+      cheshta: 40.49
+      naisargika: 17.14
+      drik: 4.34
+      sum_shastiamsa: 356.67
+      total_rupa: 5.94
+      strength_ratio: 1.19
+      percent: 119.0
+    Mercury:
+      sthana: 215.06
+      kaala: 165.65
+      dig: 7.47
+      cheshta: 13.13
+      naisargika: 25.71
+      drik: 2.1
+      sum_shastiamsa: 429.12
+      total_rupa: 7.15
+      strength_ratio: 1.02
+      percent: 102.0
+    Jupiter:
+      sthana: 101.45
+      kaala: 164.25
+      dig: 80.59
+      cheshta: 81.25
+      naisargika: 34.29
+      drik: 7.3
+      sum_shastiamsa: 469.13
+      total_rupa: 7.82
+      strength_ratio: 1.2
+      percent: 120.0
+    Venus:
+      sthana: 204.26
+      kaala: 92.27
+      dig: 31.16
+      cheshta: 12.58
+      naisargika: 42.86
+      drik: -10.62
+      sum_shastiamsa: 372.51
+      total_rupa: 6.21
+      strength_ratio: 1.13
+      percent: 113.0
+    Saturn:
+      sthana: 183.02
+      kaala: 201.59
+      dig: 39.25
+      cheshta: 100.35
+      naisargika: 8.57
+      drik: -3.44
+      sum_shastiamsa: 529.34
+      total_rupa: 8.82
+      strength_ratio: 1.76
+      percent: 176.0
+    Rahu:
+      sthana: null
+      kaala: null
+      dig: null
+      cheshta: null
+      naisargika: null
+      drik: null
+      sum_shastiamsa: null
+      total_rupa: null
+      strength_ratio: null
+      percent: null
+      note: Shadbala is not defined for nodes in PyJHora.
+    Ketu:
+      sthana: null
+      kaala: null
+      dig: null
+      cheshta: null
+      naisargika: null
+      drik: null
+      sum_shastiamsa: null
+      total_rupa: null
+      strength_ratio: null
+      percent: null
+      note: Shadbala is not defined for nodes in PyJHora.
+  vargeeya:
+    Sun: 3
+    Moon: 5
+    Mars: 5
+    Mercury: 6
+    Jupiter: 6
+    Venus: 8
+    Saturn: 6
+    Rahu: null
+    Ketu: null
+ashtakavarga:
+  SAV:
+    house_points:
+    - 32
+    - 21
+    - 24
+    - 29
+    - 28
+    - 29
+    - 29
+    - 33
+    - 26
+    - 28
+    - 28
+    - 30
+  BAV:
+    Sun:
+    - 5
+    - 4
+    - 4
+    - 2
+    - 3
+    - 5
+    - 4
+    - 5
+    - 4
+    - 4
+    - 3
+    - 5
+    Moon:
+    - 4
+    - 2
+    - 2
+    - 5
+    - 6
+    - 3
+    - 4
+    - 5
+    - 4
+    - 4
+    - 6
+    - 4
+    Mars:
+    - 4
+    - 1
+    - 3
+    - 3
+    - 2
+    - 5
+    - 5
+    - 5
+    - 3
+    - 3
+    - 1
+    - 4
+    Mercury:
+    - 7
+    - 2
+    - 5
+    - 4
+    - 3
+    - 7
+    - 5
+    - 4
+    - 4
+    - 5
+    - 3
+    - 5
+    Jupiter:
+    - 5
+    - 4
+    - 3
+    - 7
+    - 5
+    - 3
+    - 5
+    - 4
+    - 4
+    - 3
+    - 7
+    - 6
+    Venus:
+    - 3
+    - 4
+    - 4
+    - 6
+    - 4
+    - 5
+    - 5
+    - 4
+    - 4
+    - 5
+    - 4
+    - 4
+    Saturn:
+    - 4
+    - 4
+    - 3
+    - 2
+    - 5
+    - 1
+    - 1
+    - 6
+    - 3
+    - 4
+    - 4
+    - 2
+    Lagna:
+    - 4
+    - 4
+    - 5
+    - 4
+    - 6
+    - 4
+    - 4
+    - 3
+    - 2
+    - 4
+    - 5
+    - 4
+panchanga_at_birth:
+  weekday:
+    id: SUNDAY
+    local_name: Sunday
+    index: 0
+  tithi:
+    id: SHUKLA_TRITIYA
+    local_name: Thiruthiyai
+    index: 3
+    start_hour: 11.193464626903381
+    end_hour: 35.84852690096666
+    elapsed_percent: 62.348
+  nakshatra:
+    id: PUNARVASU
+    local_name: Punarpoosam
+    index: 7
+    pada: 1
+    start_hour: 17.375371231983266
+    end_hour: 42.93007030887166
+    elapsed_percent: 87.864
+  yoga:
+    id: VRIDDHI
+    local_name: Vriddhi
+    index: 11
+    start_hour: 17.972451090785935
+    end_hour: 41.51224806003708
+    fraction: 0.8936177920713368
+  karana:
+    id: TAITILA
+    local_name: Taitila
+    index: 5
+    start_hour: 11.193464626903381
+    end_hour: 23.52099576393502
+  sunrise:
+    clock: 05:53:07
+    local_time_hours: 5.885337822139263
+    jd_local: 2450606.7452199073
+  sunset:
+    clock: '20:13:35'
+    local_time_hours: 20.226380322128534
+    jd_local: 2450607.1552658468
+  day_length_hours: 14.341042499989271
+vimshottari:
+  balance_at_birth:
+    years: 14
+    months: 0
+    days: 14
+  mahadashas:
+  - lord: JUPITER
+    start: '1995-06-22'
+    end: '2011-06-22'
+  - lord: SATURN
+    start: '2011-06-22'
+    end: '2030-06-22'
+  - lord: MERCURY
+    start: '2030-06-22'
+    end: '2047-06-22'
+  - lord: KETU
+    start: '2047-06-22'
+    end: '2054-06-22'
+  - lord: VENUS
+    start: '2054-06-22'
+    end: '2074-06-22'
+  - lord: SUN
+    start: '2074-06-22'
+    end: '2080-06-22'
+  - lord: MOON
+    start: '2080-06-22'
+    end: '2090-06-22'
+  - lord: MARS
+    start: '2090-06-22'
+    end: '2097-06-22'
+  - lord: RAHU
+    start: '2097-06-22'
+    end: '2115-06-23'
+  timeline:
+  - md: JUPITER
+    ad: JUPITER
+    start: '1995-06-22T05:04:15'
+  - md: JUPITER
+    ad: SATURN
+    start: '1997-08-09T10:11:48'
+  - md: JUPITER
+    ad: MERCURY
+    start: '2000-02-20T17:47:01'
+  - md: JUPITER
+    ad: KETU
+    start: '2002-05-28T15:43:47'
+  - md: JUPITER
+    ad: VENUS
+    start: '2003-05-04T13:28:20'
+  - md: JUPITER
+    ad: SUN
+    start: '2006-01-02T13:52:46'
+  - md: JUPITER
+    ad: MOON
+    start: '2006-10-21T18:48:06'
+  - md: JUPITER
+    ad: MARS
+    start: '2008-02-20T19:00:19'
+  - md: JUPITER
+    ad: RAHU
+    start: '2009-01-26T16:44:53'
+  - md: SATURN
+    ad: SATURN
+    start: '2011-06-22T07:30:52'
+  - md: SATURN
+    ad: MERCURY
+    start: '2014-06-25T03:01:26'
+  - md: SATURN
+    ad: KETU
+    start: '2017-03-04T06:35:06'
+  - md: SATURN
+    ad: VENUS
+    start: '2018-04-13T02:24:16'
+  - md: SATURN
+    ad: SUN
+    start: '2021-06-12T17:53:17'
+  - md: SATURN
+    ad: MOON
+    start: '2022-05-25T17:43:59'
+  - md: SATURN
+    ad: MARS
+    start: '2023-12-25T01:28:30'
+  - md: SATURN
+    ad: RAHU
+    start: '2025-02-01T21:17:39'
+  - md: SATURN
+    ad: JUPITER
+    start: '2027-12-09T20:49:47'
+  - md: MERCURY
+    ad: MERCURY
+    start: '2030-06-22T04:24:59'
+  - md: MERCURY
+    ad: KETU
+    start: '2032-11-17T20:14:04'
+  - md: MERCURY
+    ad: VENUS
+    start: '2033-11-15T01:20:09'
+  - md: MERCURY
+    ad: SUN
+    start: '2036-09-14T22:46:07'
+  - md: MERCURY
+    ad: MOON
+    start: '2037-07-22T09:59:54'
+  - md: MERCURY
+    ad: MARS
+    start: '2038-12-21T20:42:53'
+  - md: MERCURY
+    ad: RAHU
+    start: '2039-12-19T01:48:58'
+  - md: MERCURY
+    ad: JUPITER
+    start: '2042-07-07T11:30:21'
+  - md: MERCURY
+    ad: SATURN
+    start: '2044-10-12T09:27:07'
+  - md: KETU
+    ad: KETU
+    start: '2047-06-22T13:00:47'
+  - md: KETU
+    ad: VENUS
+    start: '2047-11-18T16:31:31'
+  - md: KETU
+    ad: SUN
+    start: '2049-01-17T19:42:13'
+  - md: KETU
+    ad: MOON
+    start: '2049-05-25T15:51:25'
+  - md: KETU
+    ad: MARS
+    start: '2049-12-24T17:26:46'
+  - md: KETU
+    ad: RAHU
+    start: '2050-05-22T20:57:31'
+  - md: KETU
+    ad: JUPITER
+    start: '2051-06-10T09:25:08'
+  - md: KETU
+    ad: SATURN
+    start: '2052-05-16T07:09:41'
+  - md: KETU
+    ad: MERCURY
+    start: '2053-06-25T02:58:51'
+  - md: VENUS
+    ad: VENUS
+    start: '2054-06-22T08:04:56'
+  - md: VENUS
+    ad: SUN
+    start: '2057-10-21T20:35:29'
+  - md: VENUS
+    ad: MOON
+    start: '2058-10-22T02:44:39'
+  - md: VENUS
+    ad: MARS
+    start: '2060-06-21T20:59:55'
+  - md: VENUS
+    ad: RAHU
+    start: '2061-08-22T00:10:36'
+  - md: VENUS
+    ad: JUPITER
+    start: '2064-08-21T18:38:06'
+  - md: VENUS
+    ad: SATURN
+    start: '2067-04-22T19:02:32'
+  - md: VENUS
+    ad: MERCURY
+    start: '2070-06-22T10:31:33'
+  - md: VENUS
+    ad: KETU
+    start: '2073-04-22T07:57:31'
+  - md: SUN
+    ad: SUN
+    start: '2074-06-22T11:08:13'
+  - md: SUN
+    ad: MOON
+    start: '2074-10-10T00:58:58'
+  - md: SUN
+    ad: MARS
+    start: '2075-04-10T16:03:33'
+  - md: SUN
+    ad: RAHU
+    start: '2075-08-16T12:12:45'
+  - md: SUN
+    ad: JUPITER
+    start: '2076-07-10T05:45:00'
+  - md: SUN
+    ad: SATURN
+    start: '2077-04-28T10:40:20'
+  - md: SUN
+    ad: MERCURY
+    start: '2078-04-10T10:31:02'
+  - md: SUN
+    ad: KETU
+    start: '2079-02-14T21:44:50'
+  - md: SUN
+    ad: VENUS
+    start: '2079-06-22T17:54:02'
+  - md: MOON
+    ad: MOON
+    start: '2080-06-22T00:03:12'
+  - md: MOON
+    ad: MARS
+    start: '2081-04-22T09:10:50'
+  - md: MOON
+    ad: RAHU
+    start: '2081-11-21T10:46:11'
+  - md: MOON
+    ad: JUPITER
+    start: '2083-05-23T07:59:56'
+  - md: MOON
+    ad: SATURN
+    start: '2084-09-21T08:12:09'
+  - md: MOON
+    ad: MERCURY
+    start: '2086-04-22T15:56:39'
+  - md: MOON
+    ad: KETU
+    start: '2087-09-22T02:39:38'
+  - md: MOON
+    ad: VENUS
+    start: '2088-04-22T04:14:59'
+  - md: MOON
+    ad: SUN
+    start: '2089-12-21T22:30:16'
+  - md: MARS
+    ad: MARS
+    start: '2090-06-22T13:34:50'
+  - md: MARS
+    ad: RAHU
+    start: '2090-11-18T17:05:35'
+  - md: MARS
+    ad: JUPITER
+    start: '2091-12-07T05:33:12'
+  - md: MARS
+    ad: SATURN
+    start: '2092-11-12T03:17:46'
+  - md: MARS
+    ad: MERCURY
+    start: '2093-12-21T23:06:55'
+  - md: MARS
+    ad: KETU
+    start: '2094-12-19T04:13:00'
+  - md: MARS
+    ad: VENUS
+    start: '2095-05-17T07:43:45'
+  - md: MARS
+    ad: SUN
+    start: '2096-07-16T10:54:26'
+  - md: MARS
+    ad: MOON
+    start: '2096-11-21T07:03:39'
+  - md: RAHU
+    ad: RAHU
+    start: '2097-06-22T08:38:59'
+  - md: RAHU
+    ad: JUPITER
+    start: '2100-03-05T13:15:44'
+  - md: RAHU
+    ad: SATURN
+    start: '2102-07-30T04:01:44'
+  - md: RAHU
+    ad: MERCURY
+    start: '2105-06-05T03:33:51'
+  - md: RAHU
+    ad: KETU
+    start: '2107-12-23T13:15:13'
+  - md: RAHU
+    ad: VENUS
+    start: '2109-01-10T01:42:50'
+  - md: RAHU
+    ad: SUN
+    start: '2112-01-10T20:10:20'
+  - md: RAHU
+    ad: MOON
+    start: '2112-12-04T13:42:35'
+  - md: RAHU
+    ad: MARS
+    start: '2114-06-05T10:56:19'
+yogas:
+  source: PYJHORA_YOGA
+  charts:
+    D1:
+    - id: ADHI_YOGA
+      name: Adhi Yoga
+    - id: AMALA_YOGA
+      name: Amala Yoga
+    - id: ASUBHA_YOGA
+      name: Asubha Yoga
+    - id: BHAARATHI_YOGA
+      name: Bhaarathi Yoga
+    - id: HAMSA_YOGA
+      name: Hamsa Yoga
+    - id: NIPUNA_YOGA
+      name: Nipuna Yoga
+    - id: PAASA_YOGA
+      name: Paasa Yoga
+    - id: SUNAPHAA_YOGA
+      name: Sunaphaa Yoga
+    - id: VASUMATI_YOGA
+      name: Vasumati Yoga
+    D9:
+    - id: GO_YOGA
+      name: Go Yoga
+    - id: MRIDANGA_YOGA
+      name: Mridanga Yoga
+planet_status:
+  D1:
+    Sun:
+      retrograde: false
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: false
+    Moon:
+      retrograde: false
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: false
+    Mars:
+      retrograde: false
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: false
+    Mercury:
+      retrograde: true
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: false
+    Jupiter:
+      retrograde: true
+      combust: false
+      dignity: DEBILITATED
+      vargottama: false
+      sandhi: false
+    Venus:
+      retrograde: true
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: false
+    Saturn:
+      retrograde: false
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: false
+    Rahu:
+      retrograde: false
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: true
+    Ketu:
+      retrograde: false
+      combust: false
+      dignity: NEUTRAL
+      vargottama: false
+      sandhi: true

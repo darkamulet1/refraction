@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "core_chart_spec_v1",
+  "type": "object",
+  "required": ["meta", "person", "config_echo", "frames"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schema_version", "timestamp_utc", "jd_utc"],
+      "properties": {
+        "schema_version": {
+          "type": "string",
+          "const": "core_chart_spec_v1"
+        },
+        "timestamp_utc": { "type": "string" },
+        "ayanamsa_deg": { "type": ["number", "null"] },
+        "jd_utc": { "type": "number" }
+      },
+      "additionalProperties": true
+    },
+    "person": {
+      "type": "object",
+      "required": ["birth_date", "birth_time", "timezone"],
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "birth_date": { "type": "string" },
+        "birth_time": { "type": "string" },
+        "timezone": { "type": "string" }
+      },
+      "additionalProperties": true
+    },
+    "config_echo": {
+      "type": "object",
+      "required": ["zodiac_type", "house_system", "node_mode", "include_bodies"],
+      "properties": {
+        "zodiac_type": { "type": "string" },
+        "ayanamsa_mode": { "type": ["string", "null"] },
+        "ayanamsa_value_deg": { "type": ["number", "null"] },
+        "house_system": { "type": "string" },
+        "node_mode": { "type": "string" },
+        "include_bodies": {
+          "type": "array",
+          "items": { "type": "string" },
+          "minItems": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "frames": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["frame_id", "place", "ascendant", "planets", "houses"],
+        "properties": {
+          "frame_id": { "type": "string" },
+          "description": { "type": ["string", "null"] },
+          "jd": { "type": "number" },
+          "place": {
+            "type": "object",
+            "required": ["latitude", "longitude"],
+            "properties": {
+              "latitude": { "type": "number" },
+              "longitude": { "type": "number" },
+              "place_name": { "type": ["string", "null"] }
+            },
+            "additionalProperties": true
+          },
+          "ascendant": {
+            "type": "object",
+            "required": [
+              "longitude_deg",
+              "degree_in_sign",
+              "sign_index",
+              "sign_name",
+              "house_index",
+              "nakshatra_index",
+              "nakshatra_name",
+              "nakshatra_pada"
+            ],
+            "properties": {
+              "longitude_deg": { "type": "number" },
+              "degree_in_sign": { "type": "number" },
+              "sign_index": { "type": "integer" },
+              "sign_name": { "type": "string" },
+              "house_index": { "type": "integer" },
+              "nakshatra_index": { "type": "integer" },
+              "nakshatra_name": { "type": "string" },
+              "nakshatra_pada": { "type": "integer" }
+            },
+            "additionalProperties": true
+          },
+          "planets": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "id",
+                "name",
+                "longitude_deg",
+                "degree_in_sign",
+                "sign_index",
+                "sign_name",
+                "house_index",
+                "nakshatra_index",
+                "nakshatra_name",
+                "nakshatra_pada"
+              ],
+              "properties": {
+                "id": { "type": "string" },
+                "name": { "type": "string" },
+                "longitude_deg": { "type": "number" },
+                "degree_in_sign": { "type": "number" },
+                "sign_index": { "type": "integer" },
+                "sign_name": { "type": "string" },
+                "house_index": { "type": ["integer", "null"] },
+                "nakshatra_index": { "type": "integer" },
+                "nakshatra_name": { "type": "string" },
+                "nakshatra_pada": { "type": "integer" },
+                "speed_deg_per_day": { "type": ["number", "null"] },
+                "retrograde": { "type": ["boolean", "null"] }
+              },
+              "additionalProperties": true
+            }
+          },
+          "houses": {
+            "type": "array",
+            "minItems": 12,
+            "items": {
+              "type": "object",
+              "required": ["index", "start_deg", "end_deg", "cusp_deg", "sign_index", "sign_name"],
+              "properties": {
+                "index": { "type": "integer" },
+                "start_deg": { "type": "number" },
+                "end_deg": { "type": "number" },
+                "cusp_deg": { "type": "number" },
+                "sign_index": { "type": "integer" },
+                "sign_name": { "type": "string" }
+              },
+              "additionalProperties": true
+            }
+          }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

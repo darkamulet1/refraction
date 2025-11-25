@@ -1,0 +1,151 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "yogas_spec_v1",
+  "type": "object",
+  "required": [
+    "meta",
+    "person",
+    "config_echo",
+    "frames"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "timestamp_utc",
+        "jd_utc"
+      ],
+      "properties": {
+        "schema_version": {
+          "const": "yogas_spec_v1"
+        },
+        "timestamp_utc": {
+          "type": "string"
+        },
+        "jd_utc": {
+          "type": "number"
+        },
+        "ayanamsa_deg": {
+          "type": [
+            "number",
+            "null"
+          ]
+        }
+      }
+    },
+    "person": {
+      "type": "object"
+    },
+    "config_echo": {
+      "type": "object"
+    },
+    "frames": {
+      "type": "object",
+      "required": [
+        "yogas",
+        "summary"
+      ],
+      "properties": {
+        "yogas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "category",
+              "tier",
+              "active"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "PANCHA_MAHAPURUSHA",
+                  "RAJA",
+                  "WEALTH",
+                  "DOSHA",
+                  "CHANDRA",
+                  "SURYA",
+                  "NABHASA",
+                  "SPECIAL",
+                  "OTHER"
+                ]
+              },
+              "tier": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 4
+              },
+              "planet": {
+                "type": "string"
+              },
+              "planets": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "description": {
+                "type": "string"
+              },
+              "strength": {
+                "type": "string",
+                "enum": [
+                  "STRONG",
+                  "MODERATE",
+                  "WEAK"
+                ]
+              },
+              "active": {
+                "type": "boolean"
+              },
+              "malefic": {
+                "type": "boolean"
+              },
+              "formation_details": {
+                "type": "object"
+              }
+            }
+          }
+        },
+        "summary": {
+          "type": "object",
+          "required": [
+            "total_yogas",
+            "active_yogas",
+            "by_category",
+            "by_tier"
+          ],
+          "properties": {
+            "total_yogas": {
+              "type": "integer"
+            },
+            "active_yogas": {
+              "type": "integer"
+            },
+            "by_category": {
+              "type": "object"
+            },
+            "by_tier": {
+              "type": "object"
+            },
+            "strength_score": {
+              "type": "number"
+            },
+            "malefic_count": {
+              "type": "integer"
+            }
+          }
+        }
+      }
+    }
+  }
+}

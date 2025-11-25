@@ -1,0 +1,75 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "special_points_spec_v1",
+  "type": "object",
+  "required": ["meta", "person", "config_echo", "frames"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": ["schema_version", "timestamp_utc", "jd_utc"],
+      "properties": {
+        "schema_version": {"const": "special_points_spec_v1"},
+        "timestamp_utc": {"type": "string"},
+        "jd_utc": {"type": "number"},
+        "ayanamsa_deg": {"type": ["number", "null"]}
+      }
+    },
+    "person": {
+      "type": "object",
+      "properties": {
+        "id": {"type": ["string", "null"]},
+        "label": {"type": ["string", "null"]},
+        "birth_date": {"type": ["string", "null"]},
+        "birth_time": {"type": ["string", "null"]},
+        "timezone": {"type": ["string", "null"]}
+      }
+    },
+    "config_echo": {
+      "type": "object",
+      "properties": {
+        "zodiac_type": {"type": "string"},
+        "ayanamsa_mode": {"type": ["string", "null"]},
+        "house_system": {"type": "string"},
+        "node_mode": {"type": ["string", "null"]},
+        "include_bodies": {
+          "type": "array",
+          "items": {"type": "string"}
+        }
+      }
+    },
+    "frames": {
+      "type": "object",
+      "required": ["special_lagnas"],
+      "properties": {
+        "special_lagnas": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "name",
+              "longitude_deg",
+              "degree_in_sign",
+              "sign_index",
+              "sign_name",
+              "nakshatra_index",
+              "nakshatra_name",
+              "nakshatra_pada"
+            ],
+            "properties": {
+              "id": {"type": "string"},
+              "name": {"type": "string"},
+              "longitude_deg": {"type": "number"},
+              "degree_in_sign": {"type": "number"},
+              "sign_index": {"type": "integer"},
+              "sign_name": {"type": "string"},
+              "nakshatra_index": {"type": "integer"},
+              "nakshatra_name": {"type": "string"},
+              "nakshatra_pada": {"type": "integer"}
+            }
+          }
+        }
+      }
+    }
+  }
+}

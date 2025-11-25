@@ -1,0 +1,121 @@
+{
+  "schema_version": "transit.v1",
+  "engine_version": "4.5.5",
+  "generated_at_utc": "2025-11-16T04:01:42.686028",
+  "reference_person": "Mehran",
+  "reference_source_file": "",
+  "natal_jd_local": 2450607.3531944444,
+  "natal_datetime_local": "1997-06-07T20:28:36+04:30",
+  "transit_datetime_local": "2025-01-01T12:00:00+03:30",
+  "transit_jd_local": 2460677.0,
+  "transit_jd_utc": 2460676.8541666665,
+  "location": {
+    "name": "Tehran",
+    "latitude_deg": 35.6892,
+    "longitude_deg": 51.389,
+    "timezone": "Asia/Tehran"
+  },
+  "natal_lagna_longitude_deg": 236.35187377299138,
+  "natal_moon_longitude_deg": 81.63502036620407,
+  "transit_lagna_longitude_deg": 351.70451230868696,
+  "grahas": [
+    {
+      "name": "Sun",
+      "natal_longitude_deg": 53.116742406178126,
+      "natal_sign_index": 1,
+      "natal_house_index": 7,
+      "transit_longitude_deg": 256.9741008431696,
+      "transit_sign_index": 8,
+      "transit_house_from_natal_lagna": 2,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Moon",
+      "natal_longitude_deg": 81.63502036620407,
+      "natal_sign_index": 2,
+      "natal_house_index": 8,
+      "transit_longitude_deg": 274.4817292551892,
+      "transit_sign_index": 9,
+      "transit_house_from_natal_lagna": 3,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Mars",
+      "natal_longitude_deg": 151.4555844736101,
+      "natal_sign_index": 5,
+      "natal_house_index": 11,
+      "transit_longitude_deg": 97.59345574513968,
+      "transit_sign_index": 3,
+      "transit_house_from_natal_lagna": 9,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Mercury",
+      "natal_longitude_deg": 33.93845791661968,
+      "natal_sign_index": 1,
+      "natal_house_index": 7,
+      "transit_longitude_deg": 236.1294090989806,
+      "transit_sign_index": 7,
+      "transit_house_from_natal_lagna": 1,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Jupiter",
+      "natal_longitude_deg": 298.11139803792565,
+      "natal_sign_index": 9,
+      "natal_house_index": 3,
+      "transit_longitude_deg": 48.9689171462086,
+      "transit_sign_index": 1,
+      "transit_house_from_natal_lagna": 7,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Venus",
+      "natal_longitude_deg": 70.45520695337642,
+      "natal_sign_index": 2,
+      "natal_house_index": 8,
+      "transit_longitude_deg": 303.8902487471397,
+      "transit_sign_index": 10,
+      "transit_house_from_natal_lagna": 4,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Saturn",
+      "natal_longitude_deg": 354.09388594541105,
+      "natal_sign_index": 11,
+      "natal_house_index": 5,
+      "transit_longitude_deg": 320.3489195125847,
+      "transit_sign_index": 10,
+      "transit_house_from_natal_lagna": 4,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Rahu",
+      "natal_longitude_deg": 150.88515137300746,
+      "natal_sign_index": 5,
+      "natal_house_index": 11,
+      "transit_longitude_deg": 337.2722138218615,
+      "transit_sign_index": 11,
+      "transit_house_from_natal_lagna": 5,
+      "aspects_to_natal": []
+    },
+    {
+      "name": "Ketu",
+      "natal_longitude_deg": 330.8851513730075,
+      "natal_sign_index": 11,
+      "natal_house_index": 5,
+      "transit_longitude_deg": 157.27221382186144,
+      "transit_sign_index": 5,
+      "transit_house_from_natal_lagna": 11,
+      "aspects_to_natal": []
+    }
+  ],
+  "flags": {
+    "sade_sati_phase": null,
+    "saturn_house_from_moon": 9,
+    "saturn_house_from_lagna": 4,
+    "jupiter_house_from_lagna": 7,
+    "rahu_house_from_lagna": 5,
+    "ketu_house_from_lagna": 11
+  }
+}

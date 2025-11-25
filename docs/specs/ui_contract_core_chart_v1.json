@@ -1,0 +1,27 @@
+{
+  "entity": "core_chart",
+  "version": "ui_contract_core_chart_v1",
+  "views": {
+    "planet_card": {
+      "description": "Fields required to render a single planet card",
+      "required_fields": [
+        "frames[0].planets[].id",
+        "frames[0].planets[].sign_index",
+        "frames[0].planets[].sign_name",
+        "frames[0].planets[].degree_in_sign",
+        "frames[0].planets[].nakshatra_index",
+        "frames[0].planets[].house_index"
+      ]
+    },
+    "house_card": {
+      "description": "Fields required to render a house with occupants",
+      "required_fields": [
+        "frames[0].houses[].index",
+        "frames[0].houses[].sign_index",
+        "frames[0].houses[].sign_name",
+        "frames[0].house_planet_map[].house_index",
+        "frames[0].house_planet_map[].planet_ids[]"
+      ]
+    }
+  }
+}

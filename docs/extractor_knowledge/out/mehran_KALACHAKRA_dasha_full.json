@@ -1,0 +1,825 @@
+{
+  "meta": {
+    "schema_version": "dasha.v1",
+    "engine": "PYJHORA_KALACHAKRA",
+    "system": "KALACHAKRA",
+    "source_birth_file": "mehran_full_pyjhora.json"
+  },
+  "birth_ref": {
+    "person": "Mehran",
+    "datetime_local": "1997-06-07T20:28:36+04:30",
+    "timezone": "Asia/Tehran"
+  },
+  "timeline": [
+    {
+      "level": "MD",
+      "lord": "CANCER",
+      "sublord": null,
+      "start_jd": 2450607.3531944444,
+      "end_jd": 2459720.27630787,
+      "start_iso": "1997-06-07T20:28:36",
+      "end_iso": "2022-05-20T18:37:53"
+    },
+    {
+      "level": "AD",
+      "lord": "CANCER",
+      "sublord": "CANCER",
+      "start_jd": 2450607.3531944444,
+      "end_jd": 2452480.353854167,
+      "start_iso": "1997-06-07T20:28:36",
+      "end_iso": "2002-07-24T20:29:33"
+    },
+    {
+      "level": "AD",
+      "lord": "LEO",
+      "sublord": "CANCER",
+      "start_jd": 2452480.353854167,
+      "end_jd": 2452926.306388889,
+      "start_iso": "2002-07-24T20:29:33",
+      "end_iso": "2003-10-13T19:21:12"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "CANCER",
+      "start_jd": 2452926.306388889,
+      "end_jd": 2453729.020960648,
+      "start_iso": "2003-10-13T19:21:12",
+      "end_iso": "2005-12-24T12:30:11"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "CANCER",
+      "start_jd": 2453729.020960648,
+      "end_jd": 2455156.0690740743,
+      "start_iso": "2005-12-24T12:30:11",
+      "end_iso": "2009-11-20T13:39:28"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "CANCER",
+      "start_jd": 2455156.0690740743,
+      "end_jd": 2455780.402627315,
+      "start_iso": "2009-11-20T13:39:28",
+      "end_iso": "2011-08-06T21:39:47"
+    },
+    {
+      "level": "AD",
+      "lord": "SAGITTARIUS",
+      "sublord": "CANCER",
+      "start_jd": 2455780.402627315,
+      "end_jd": 2456672.3077083332,
+      "start_iso": "2011-08-06T21:39:47",
+      "end_iso": "2014-01-14T19:23:06"
+    },
+    {
+      "level": "AD",
+      "lord": "CAPRICORN",
+      "sublord": "CANCER",
+      "start_jd": 2456672.3077083332,
+      "end_jd": 2457029.069733796,
+      "start_iso": "2014-01-14T19:23:06",
+      "end_iso": "2015-01-06T13:40:25"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "CANCER",
+      "start_jd": 2457029.069733796,
+      "end_jd": 2457385.831759259,
+      "start_iso": "2015-01-06T13:40:25",
+      "end_iso": "2015-12-29T07:57:44"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "CANCER",
+      "start_jd": 2457385.831759259,
+      "end_jd": 2459720.27630787,
+      "start_iso": "2015-12-29T07:57:44",
+      "end_iso": "2022-05-20T18:37:53"
+    },
+    {
+      "level": "MD",
+      "lord": "LEO",
+      "sublord": null,
+      "start_jd": 2459720.27630787,
+      "end_jd": 2463372.839953704,
+      "start_iso": "2022-05-20T18:37:53",
+      "end_iso": "2032-05-20T08:09:32"
+    },
+    {
+      "level": "AD",
+      "lord": "LEO",
+      "sublord": "LEO",
+      "start_jd": 2459720.27630787,
+      "end_jd": 2459847.1014351854,
+      "start_iso": "2022-05-20T18:37:53",
+      "end_iso": "2022-09-24T14:26:04"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "LEO",
+      "start_jd": 2459847.1014351854,
+      "end_jd": 2460075.3866666667,
+      "start_iso": "2022-09-24T14:26:04",
+      "end_iso": "2023-05-10T21:16:48"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "LEO",
+      "start_jd": 2460075.3866666667,
+      "end_jd": 2460481.2270717593,
+      "start_iso": "2023-05-10T21:16:48",
+      "end_iso": "2024-06-19T17:26:59"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "LEO",
+      "start_jd": 2460481.2270717593,
+      "end_jd": 2460658.7822453706,
+      "start_iso": "2024-06-19T17:26:59",
+      "end_iso": "2024-12-14T06:46:26"
+    },
+    {
+      "level": "AD",
+      "lord": "SAGITTARIUS",
+      "sublord": "LEO",
+      "start_jd": 2460658.7822453706,
+      "end_jd": 2460912.4325,
+      "start_iso": "2024-12-14T06:46:26",
+      "end_iso": "2025-08-24T22:22:48"
+    },
+    {
+      "level": "AD",
+      "lord": "CAPRICORN",
+      "sublord": "LEO",
+      "start_jd": 2460912.4325,
+      "end_jd": 2461013.8926041666,
+      "start_iso": "2025-08-24T22:22:48",
+      "end_iso": "2025-12-04T09:25:21"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "LEO",
+      "start_jd": 2461013.8926041666,
+      "end_jd": 2461115.352696759,
+      "start_iso": "2025-12-04T09:25:21",
+      "end_iso": "2026-03-15T20:27:53"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "LEO",
+      "start_jd": 2461115.352696759,
+      "end_jd": 2461369.0029513887,
+      "start_iso": "2026-03-15T20:27:53",
+      "end_iso": "2026-11-24T12:04:15"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "LEO",
+      "start_jd": 2461369.0029513887,
+      "end_jd": 2463372.839953704,
+      "start_iso": "2026-11-24T12:04:15",
+      "end_iso": "2032-05-20T08:09:32"
+    },
+    {
+      "level": "MD",
+      "lord": "VIRGO",
+      "sublord": null,
+      "start_jd": 2463372.839953704,
+      "end_jd": 2469947.454502315,
+      "start_iso": "2032-05-20T08:09:32",
+      "end_iso": "2050-05-20T22:54:29"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "VIRGO",
+      "start_jd": 2463372.839953704,
+      "end_jd": 2463729.294953704,
+      "start_iso": "2032-05-20T08:09:32",
+      "end_iso": "2033-05-11T19:04:44"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "VIRGO",
+      "start_jd": 2463729.294953704,
+      "end_jd": 2464362.9927430553,
+      "start_iso": "2033-05-11T19:04:44",
+      "end_iso": "2035-02-04T11:49:33"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "VIRGO",
+      "start_jd": 2464362.9927430553,
+      "end_jd": 2464640.235520833,
+      "start_iso": "2035-02-04T11:49:33",
+      "end_iso": "2035-11-08T17:39:09"
+    },
+    {
+      "level": "AD",
+      "lord": "SAGITTARIUS",
+      "sublord": "VIRGO",
+      "start_jd": 2464640.235520833,
+      "end_jd": 2465036.2966435184,
+      "start_iso": "2035-11-08T17:39:09",
+      "end_iso": "2036-12-08T19:07:10"
+    },
+    {
+      "level": "AD",
+      "lord": "CAPRICORN",
+      "sublord": "VIRGO",
+      "start_jd": 2465036.2966435184,
+      "end_jd": 2465194.721087963,
+      "start_iso": "2036-12-08T19:07:10",
+      "end_iso": "2037-05-16T05:18:22"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "VIRGO",
+      "start_jd": 2465194.721087963,
+      "end_jd": 2465353.1455324073,
+      "start_iso": "2037-05-16T05:18:22",
+      "end_iso": "2037-10-21T15:29:34"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "VIRGO",
+      "start_jd": 2465353.1455324073,
+      "end_jd": 2465749.2066550925,
+      "start_iso": "2037-10-21T15:29:34",
+      "end_iso": "2038-11-21T16:57:35"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "VIRGO",
+      "start_jd": 2465749.2066550925,
+      "end_jd": 2466026.4494328704,
+      "start_iso": "2038-11-21T16:57:35",
+      "end_iso": "2039-08-25T22:47:11"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "VIRGO",
+      "start_jd": 2466026.4494328704,
+      "end_jd": 2469947.454502315,
+      "start_iso": "2039-08-25T22:47:11",
+      "end_iso": "2050-05-20T22:54:29"
+    },
+    {
+      "level": "MD",
+      "lord": "LIBRA",
+      "sublord": null,
+      "start_jd": 2469947.454502315,
+      "end_jd": 2481635.658148148,
+      "start_iso": "2050-05-20T22:54:29",
+      "end_iso": "2082-05-21T03:47:44"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "LIBRA",
+      "start_jd": 2469947.454502315,
+      "end_jd": 2471074.0283449073,
+      "start_iso": "2050-05-20T22:54:29",
+      "end_iso": "2053-06-20T12:40:49"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "LIBRA",
+      "start_jd": 2471074.0283449073,
+      "end_jd": 2471566.9044097224,
+      "start_iso": "2053-06-20T12:40:49",
+      "end_iso": "2054-10-26T09:42:21"
+    },
+    {
+      "level": "AD",
+      "lord": "SAGITTARIUS",
+      "sublord": "LIBRA",
+      "start_jd": 2471566.9044097224,
+      "end_jd": 2472271.0130555555,
+      "start_iso": "2054-10-26T09:42:21",
+      "end_iso": "2056-09-29T12:18:48"
+    },
+    {
+      "level": "AD",
+      "lord": "CAPRICORN",
+      "sublord": "LIBRA",
+      "start_jd": 2472271.0130555555,
+      "end_jd": 2472552.6565162037,
+      "start_iso": "2056-09-29T12:18:48",
+      "end_iso": "2057-07-08T03:45:23"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "LIBRA",
+      "start_jd": 2472552.6565162037,
+      "end_jd": 2472834.299976852,
+      "start_iso": "2057-07-08T03:45:23",
+      "end_iso": "2058-04-15T19:11:58"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "LIBRA",
+      "start_jd": 2472834.299976852,
+      "end_jd": 2473538.4086342594,
+      "start_iso": "2058-04-15T19:11:58",
+      "end_iso": "2060-03-19T21:48:26"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "LIBRA",
+      "start_jd": 2473538.4086342594,
+      "end_jd": 2474031.2846875,
+      "start_iso": "2060-03-19T21:48:26",
+      "end_iso": "2061-07-25T18:49:57"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "LIBRA",
+      "start_jd": 2474031.2846875,
+      "end_jd": 2475157.8585416665,
+      "start_iso": "2061-07-25T18:49:57",
+      "end_iso": "2064-08-25T08:36:18"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "LIBRA",
+      "start_jd": 2475157.8585416665,
+      "end_jd": 2481635.658148148,
+      "start_iso": "2064-08-25T08:36:18",
+      "end_iso": "2082-05-21T03:47:44"
+    },
+    {
+      "level": "MD",
+      "lord": "SCORPIO",
+      "sublord": null,
+      "start_jd": 2481635.658148148,
+      "end_jd": 2486749.2472453704,
+      "start_iso": "2082-05-21T03:47:44",
+      "end_iso": "2096-05-20T17:56:02"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "SCORPIO",
+      "start_jd": 2481635.658148148,
+      "end_jd": 2481839.0395370373,
+      "start_iso": "2082-05-21T03:47:44",
+      "end_iso": "2082-12-10T12:56:56"
+    },
+    {
+      "level": "AD",
+      "lord": "SAGITTARIUS",
+      "sublord": "SCORPIO",
+      "start_jd": 2481839.0395370373,
+      "end_jd": 2482129.584363426,
+      "start_iso": "2082-12-10T12:56:56",
+      "end_iso": "2083-09-27T02:01:29"
+    },
+    {
+      "level": "AD",
+      "lord": "CAPRICORN",
+      "sublord": "SCORPIO",
+      "start_jd": 2482129.584363426,
+      "end_jd": 2482245.8023032406,
+      "start_iso": "2083-09-27T02:01:29",
+      "end_iso": "2084-01-21T07:15:19"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "SCORPIO",
+      "start_jd": 2482245.8023032406,
+      "end_jd": 2482362.0202314816,
+      "start_iso": "2084-01-21T07:15:19",
+      "end_iso": "2084-05-16T12:29:08"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "SCORPIO",
+      "start_jd": 2482362.0202314816,
+      "end_jd": 2482652.5650694445,
+      "start_iso": "2084-05-16T12:29:08",
+      "end_iso": "2085-03-03T01:33:42"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "SCORPIO",
+      "start_jd": 2482652.5650694445,
+      "end_jd": 2482855.946458333,
+      "start_iso": "2085-03-03T01:33:42",
+      "end_iso": "2085-09-22T10:42:54"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "SCORPIO",
+      "start_jd": 2482855.946458333,
+      "end_jd": 2483320.8181944443,
+      "start_iso": "2085-09-22T10:42:54",
+      "end_iso": "2086-12-31T07:38:12"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "SCORPIO",
+      "start_jd": 2483320.8181944443,
+      "end_jd": 2483582.3085416667,
+      "start_iso": "2086-12-31T07:38:12",
+      "end_iso": "2087-09-18T19:24:18"
+    },
+    {
+      "level": "AD",
+      "lord": "CANCER",
+      "sublord": "SCORPIO",
+      "start_jd": 2483582.3085416667,
+      "end_jd": 2486749.2472453704,
+      "start_iso": "2087-09-18T19:24:18",
+      "end_iso": "2096-05-20T17:56:02"
+    },
+    {
+      "level": "MD",
+      "lord": "SAGITTARIUS",
+      "sublord": null,
+      "start_jd": 2486749.2472453704,
+      "end_jd": 2494054.3745254627,
+      "start_iso": "2096-05-20T17:56:02",
+      "end_iso": "2116-05-21T20:59:19"
+    },
+    {
+      "level": "AD",
+      "lord": "SAGITTARIUS",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2486749.2472453704,
+      "end_jd": 2487173.9639467592,
+      "start_iso": "2096-05-20T17:56:02",
+      "end_iso": "2097-07-19T11:08:05"
+    },
+    {
+      "level": "AD",
+      "lord": "CAPRICORN",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2487173.9639467592,
+      "end_jd": 2487343.850625,
+      "start_iso": "2097-07-19T11:08:05",
+      "end_iso": "2098-01-05T08:24:54"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2487343.850625,
+      "end_jd": 2487513.7373148147,
+      "start_iso": "2098-01-05T08:24:54",
+      "end_iso": "2098-06-24T05:41:44"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2487513.7373148147,
+      "end_jd": 2487938.4540162035,
+      "start_iso": "2098-06-24T05:41:44",
+      "end_iso": "2099-08-22T22:53:47"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2487938.4540162035,
+      "end_jd": 2488235.7557060183,
+      "start_iso": "2099-08-22T22:53:47",
+      "end_iso": "2100-06-16T06:08:13"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2488235.7557060183,
+      "end_jd": 2488915.3024305557,
+      "start_iso": "2100-06-16T06:08:13",
+      "end_iso": "2102-04-26T19:15:30"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2488915.3024305557,
+      "end_jd": 2489297.547465278,
+      "start_iso": "2102-04-26T19:15:30",
+      "end_iso": "2103-05-14T01:08:21"
+    },
+    {
+      "level": "AD",
+      "lord": "CANCER",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2489297.547465278,
+      "end_jd": 2490189.452534722,
+      "start_iso": "2103-05-14T01:08:21",
+      "end_iso": "2105-10-21T22:51:39"
+    },
+    {
+      "level": "AD",
+      "lord": "LEO",
+      "sublord": "SAGITTARIUS",
+      "start_jd": 2490189.452534722,
+      "end_jd": 2494054.3745254627,
+      "start_iso": "2105-10-21T22:51:39",
+      "end_iso": "2116-05-21T20:59:19"
+    },
+    {
+      "level": "MD",
+      "lord": "CAPRICORN",
+      "sublord": null,
+      "start_jd": 2494054.3745254627,
+      "end_jd": 2496976.425439815,
+      "start_iso": "2116-05-21T20:59:19",
+      "end_iso": "2124-05-21T22:12:38"
+    },
+    {
+      "level": "AD",
+      "lord": "CAPRICORN",
+      "sublord": "CAPRICORN",
+      "start_jd": 2494054.3745254627,
+      "end_jd": 2494123.1286689816,
+      "start_iso": "2116-05-21T20:59:19",
+      "end_iso": "2116-07-29T15:05:17"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "CAPRICORN",
+      "start_jd": 2494123.1286689816,
+      "end_jd": 2494191.882800926,
+      "start_iso": "2116-07-29T15:05:17",
+      "end_iso": "2116-10-06T09:11:14"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "CAPRICORN",
+      "start_jd": 2494191.882800926,
+      "end_jd": 2494363.768148148,
+      "start_iso": "2116-10-06T09:11:14",
+      "end_iso": "2117-03-27T06:26:08"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "CAPRICORN",
+      "start_jd": 2494363.768148148,
+      "end_jd": 2494484.0878935186,
+      "start_iso": "2117-03-27T06:26:08",
+      "end_iso": "2117-07-25T14:06:34"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "CAPRICORN",
+      "start_jd": 2494484.0878935186,
+      "end_jd": 2494759.1044560187,
+      "start_iso": "2117-07-25T14:06:34",
+      "end_iso": "2118-04-26T14:30:25"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "CAPRICORN",
+      "start_jd": 2494759.1044560187,
+      "end_jd": 2494913.801261574,
+      "start_iso": "2118-04-26T14:30:25",
+      "end_iso": "2118-09-28T07:13:49"
+    },
+    {
+      "level": "AD",
+      "lord": "CANCER",
+      "sublord": "CAPRICORN",
+      "start_jd": 2494913.801261574,
+      "end_jd": 2495274.760497685,
+      "start_iso": "2118-09-28T07:13:49",
+      "end_iso": "2119-09-24T06:15:07"
+    },
+    {
+      "level": "AD",
+      "lord": "LEO",
+      "sublord": "CAPRICORN",
+      "start_jd": 2495274.760497685,
+      "end_jd": 2495360.7031712965,
+      "start_iso": "2119-09-24T06:15:07",
+      "end_iso": "2119-12-19T04:52:34"
+    },
+    {
+      "level": "AD",
+      "lord": "GEMINI",
+      "sublord": "CAPRICORN",
+      "start_jd": 2495360.7031712965,
+      "end_jd": 2496976.425439815,
+      "start_iso": "2119-12-19T04:52:34",
+      "end_iso": "2124-05-21T22:12:38"
+    },
+    {
+      "level": "MD",
+      "lord": "AQUARIUS",
+      "sublord": null,
+      "start_jd": 2496976.425439815,
+      "end_jd": 2499898.476354167,
+      "start_iso": "2124-05-21T22:12:38",
+      "end_iso": "2132-05-21T23:25:57"
+    },
+    {
+      "level": "AD",
+      "lord": "AQUARIUS",
+      "sublord": "AQUARIUS",
+      "start_jd": 2496976.425439815,
+      "end_jd": 2497036.673912037,
+      "start_iso": "2124-05-21T22:12:38",
+      "end_iso": "2124-07-21T04:10:26"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "AQUARIUS",
+      "start_jd": 2497036.673912037,
+      "end_jd": 2497187.2950925925,
+      "start_iso": "2124-07-21T04:10:26",
+      "end_iso": "2124-12-18T19:04:56"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "AQUARIUS",
+      "start_jd": 2497187.2950925925,
+      "end_jd": 2497292.7299189814,
+      "start_iso": "2124-12-18T19:04:56",
+      "end_iso": "2125-04-03T05:31:05"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "AQUARIUS",
+      "start_jd": 2497292.7299189814,
+      "end_jd": 2497533.7238078704,
+      "start_iso": "2125-04-03T05:31:05",
+      "end_iso": "2125-11-30T05:22:17"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "AQUARIUS",
+      "start_jd": 2497533.7238078704,
+      "end_jd": 2497669.2828703704,
+      "start_iso": "2125-11-30T05:22:17",
+      "end_iso": "2126-04-14T18:47:20"
+    },
+    {
+      "level": "AD",
+      "lord": "CANCER",
+      "sublord": "AQUARIUS",
+      "start_jd": 2497669.2828703704,
+      "end_jd": 2497985.587349537,
+      "start_iso": "2126-04-14T18:47:20",
+      "end_iso": "2127-02-25T02:05:47"
+    },
+    {
+      "level": "AD",
+      "lord": "LEO",
+      "sublord": "AQUARIUS",
+      "start_jd": 2497985.587349537,
+      "end_jd": 2498060.8979398147,
+      "start_iso": "2127-02-25T02:05:47",
+      "end_iso": "2127-05-11T09:33:02"
+    },
+    {
+      "level": "AD",
+      "lord": "GEMINI",
+      "sublord": "AQUARIUS",
+      "start_jd": 2498060.8979398147,
+      "end_jd": 2498196.4570023147,
+      "start_iso": "2127-05-11T09:33:02",
+      "end_iso": "2127-09-23T22:58:05"
+    },
+    {
+      "level": "AD",
+      "lord": "TAURUS",
+      "sublord": "AQUARIUS",
+      "start_jd": 2498196.4570023147,
+      "end_jd": 2499898.476354167,
+      "start_iso": "2127-09-23T22:58:05",
+      "end_iso": "2132-05-21T23:25:57"
+    },
+    {
+      "level": "MD",
+      "lord": "PISCES",
+      "sublord": null,
+      "start_jd": 2499898.476354167,
+      "end_jd": 2503551.0399872074,
+      "start_iso": "2132-05-21T23:25:57",
+      "end_iso": "2142-05-22T12:57:35"
+    },
+    {
+      "level": "AD",
+      "lord": "PISCES",
+      "sublord": "PISCES",
+      "start_jd": 2499898.476354167,
+      "end_jd": 2500263.7327083335,
+      "start_iso": "2132-05-21T23:25:57",
+      "end_iso": "2133-05-22T05:35:06"
+    },
+    {
+      "level": "AD",
+      "lord": "SCORPIO",
+      "sublord": "PISCES",
+      "start_jd": 2500263.7327083335,
+      "end_jd": 2500519.412164352,
+      "start_iso": "2133-05-22T05:35:06",
+      "end_iso": "2134-02-01T21:53:31"
+    },
+    {
+      "level": "AD",
+      "lord": "LIBRA",
+      "sublord": "PISCES",
+      "start_jd": 2500519.412164352,
+      "end_jd": 2501103.822349537,
+      "start_iso": "2134-02-01T21:53:31",
+      "end_iso": "2135-09-09T07:44:11"
+    },
+    {
+      "level": "AD",
+      "lord": "VIRGO",
+      "sublord": "PISCES",
+      "start_jd": 2501103.822349537,
+      "end_jd": 2501432.5530787036,
+      "start_iso": "2135-09-09T07:44:11",
+      "end_iso": "2136-08-03T01:16:26"
+    },
+    {
+      "level": "AD",
+      "lord": "CANCER",
+      "sublord": "PISCES",
+      "start_jd": 2501432.5530787036,
+      "end_jd": 2502199.591446759,
+      "start_iso": "2136-08-03T01:16:26",
+      "end_iso": "2138-09-09T02:11:41"
+    },
+    {
+      "level": "AD",
+      "lord": "LEO",
+      "sublord": "PISCES",
+      "start_jd": 2502199.591446759,
+      "end_jd": 2502382.2196296295,
+      "start_iso": "2138-09-09T02:11:41",
+      "end_iso": "2139-03-10T17:16:16"
+    },
+    {
+      "level": "AD",
+      "lord": "GEMINI",
+      "sublord": "PISCES",
+      "start_jd": 2502382.2196296295,
+      "end_jd": 2502710.9503472224,
+      "start_iso": "2139-03-10T17:16:16",
+      "end_iso": "2140-02-02T10:48:30"
+    },
+    {
+      "level": "AD",
+      "lord": "TAURUS",
+      "sublord": "PISCES",
+      "start_jd": 2502710.9503472224,
+      "end_jd": 2503295.360532407,
+      "start_iso": "2140-02-02T10:48:30",
+      "end_iso": "2141-09-08T20:39:10"
+    },
+    {
+      "level": "AD",
+      "lord": "ARIES",
+      "sublord": "PISCES",
+      "start_jd": 2503295.360532407,
+      "end_jd": 2503551.0399872074,
+      "start_iso": "2141-09-08T20:39:10",
+      "end_iso": "2142-05-22T12:57:35"
+    }
+  ]
+}

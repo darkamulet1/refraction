@@ -1,0 +1,60 @@
+{
+  "subject": "setare",
+  "source": "PL-PDF:setare_pl.pdf",
+  "ayanamsa": {
+    "name": "Lahiri",
+    "node_mode": "mean"
+  },
+  "planets_d1": {
+    "lagna": {
+      "sign": "Ari",
+      "dms": "03:53:49",
+      "deg_0_360": 3.896944
+    },
+    "sun": {
+      "sign": "Ari",
+      "dms": "17:41:13",
+      "deg_0_360": 17.686944
+    },
+    "moon": {
+      "sign": "Cap",
+      "dms": "29:01:04",
+      "deg_0_360": 299.017778
+    },
+    "mars": {
+      "sign": "Sag",
+      "dms": "21:48:26",
+      "deg_0_360": 261.807222
+    },
+    "mercury": {
+      "sign": "Pis",
+      "dms": "26:51:25",
+      "deg_0_360": 356.856944
+    },
+    "jupiter": {
+      "sign": "Aqu",
+      "dms": "21:52:56",
+      "deg_0_360": 321.882222
+    },
+    "venus": {
+      "sign": "Tau",
+      "dms": "12:43:45",
+      "deg_0_360": 42.729167
+    },
+    "saturn": {
+      "sign": "Sco",
+      "dms": "14:34:19",
+      "deg_0_360": 224.571944
+    },
+    "rahu": {
+      "sign": "Ari",
+      "dms": "06:16:23",
+      "deg_0_360": 6.273056
+    },
+    "ketu": {
+      "sign": "Lib",
+      "dms": "06:16:23",
+      "deg_0_360": 186.273056
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "core_chart": {
+    "module": "refraction_engine.core_chart",
+    "description": "Entry point for Core Chart extraction."
+  },
+  "trusted_pyjhora_calls": [
+    {
+      "module": "jhora.panchanga.drik",
+      "function": "tithi",
+      "required": true,
+      "experimental": false
+    },
+    {
+      "module": "jhora.panchanga.drik",
+      "function": "nakshatra",
+      "required": true,
+      "experimental": false
+    },
+    {
+      "module": "jhora.panchanga.drik",
+      "function": "yogam",
+      "required": true,
+      "experimental": false
+    },
+    {
+      "module": "jhora.panchanga.drik",
+      "function": "karana",
+      "required": true,
+      "experimental": false
+    },
+    {
+      "module": "jhora.panchanga.drik",
+      "function": "vaara",
+      "required": true,
+      "experimental": false
+    },
+    {
+      "module": "jhora.horoscope.chart.charts",
+      "function": "divisional_chart",
+      "required": false,
+      "experimental": true,
+      "note": "Core D1 output; additional D9/Dasha charts optional per roadmap."
+    },
+    {
+      "module": "jhora.horoscope.chart.charts",
+      "function": "dasavarga_from_long",
+      "required": false,
+      "experimental": true
+    },
+    {
+      "module": "jhora.horoscope.chart.strength",
+      "function": "shadbala",
+      "required": false,
+      "experimental": true
+    },
+    {
+      "module": "jhora.horoscope.chart.strength",
+      "function": "bhava_bala",
+      "required": false,
+      "experimental": true
+    },
+    {
+      "module": "jhora.horoscope.chart.yoga",
+      "function": "raja_yoga",
+      "required": false,
+      "experimental": true
+    }
+  ]
+}

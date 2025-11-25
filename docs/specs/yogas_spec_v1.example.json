@@ -1,0 +1,89 @@
+{
+  "meta": {
+    "schema_version": "yogas_spec_v1",
+    "timestamp_utc": "2025-11-25T18:00:00Z",
+    "jd_utc": 2453303.125,
+    "ayanamsa_deg": 23.924
+  },
+  "person": {
+    "id": "mehran",
+    "label": "Mehran",
+    "birth_date": "1997-06-07",
+    "birth_time": "20:28:36",
+    "timezone": "Asia/Tehran"
+  },
+  "config_echo": {
+    "zodiac_type": "SIDEREAL",
+    "ayanamsa_mode": "LAHIRI",
+    "house_system": "5"
+  },
+  "frames": {
+    "yogas": [
+      {
+        "id": "GAJA_KESARI",
+        "name": "Gaja Kesari Yoga",
+        "category": "WEALTH",
+        "tier": 1,
+        "planets": ["JUPITER", "MOON"],
+        "description": "Jupiter in kendra from Moon",
+        "strength": "STRONG",
+        "active": true,
+        "formation_details": {
+          "jupiter_house": 5,
+          "moon_house": 2,
+          "angle": "kendra"
+        }
+      },
+      {
+        "id": "HAMSA_YOGA",
+        "name": "Hamsa Yoga",
+        "category": "PANCHA_MAHAPURUSHA",
+        "tier": 1,
+        "planet": "JUPITER",
+        "description": "Jupiter in kendra in own/exaltation sign",
+        "strength": "STRONG",
+        "active": true,
+        "formation_details": {
+          "planet_sign": "SAGITTARIUS",
+          "planet_house": 10,
+          "dignity": "own"
+        }
+      },
+      {
+        "id": "KALA_SARPA",
+        "name": "Kala Sarpa Dosha",
+        "category": "DOSHA",
+        "tier": 1,
+        "planets": ["RAHU", "KETU"],
+        "description": "All planets hemmed between Rahu-Ketu axis",
+        "strength": "STRONG",
+        "active": true,
+        "malefic": true,
+        "formation_details": {
+          "type": "Anant",
+          "rahu_house": 1,
+          "ketu_house": 7
+        }
+      }
+    ],
+    "summary": {
+      "total_yogas": 15,
+      "active_yogas": 12,
+      "by_category": {
+        "PANCHA_MAHAPURUSHA": 2,
+        "RAJA": 3,
+        "WEALTH": 4,
+        "DOSHA": 2,
+        "CHANDRA": 1
+      },
+      "by_tier": {
+        "1": 8,
+        "2": 4,
+        "3": 2,
+        "4": 1
+      },
+      "strength_score": 75.5,
+      "malefic_count": 2
+    }
+  }
+}
